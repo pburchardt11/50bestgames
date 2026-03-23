@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
+  <url><loc>https://50bestgames.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://50bestgames.com/rankings.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://50bestgames.com/countries/index.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://50bestgames.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://50bestgames.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://50bestgames.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- Country Pages -->
+  <url><loc>https://50bestgames.com/country.html?country=united-states</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=brazil</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=japan</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=south-korea</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=germany</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=india</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=united-kingdom</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=france</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=china</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=indonesia</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=mexico</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=russia</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=turkey</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=philippines</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/country.html?country=thailand</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- Blog -->
+  <url><loc>https://50bestgames.com/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://50bestgames.com/blog/top-battle-royale-games-2026.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/mobile-gaming-revolution.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/free-to-play-vs-premium.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/esports-guide-beginners.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/best-multiplayer-games-friends.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/gaming-in-asia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/cloud-gaming-future.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/sandbox-games-creativity.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/best-games-low-end-pc.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/history-online-gaming.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/ai-in-gaming-2026.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/best-moba-games.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/gaming-mental-health.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/rise-of-indie-games.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/vr-gaming-guide.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/most-downloaded-games-by-country.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/game-streaming-platforms.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/retro-gaming-comeback.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/cross-platform-gaming.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://50bestgames.com/blog/gaming-industry-revenue.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
