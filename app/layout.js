@@ -18,6 +18,19 @@ export default function RootLayout({ children }) {
       <head>
         <Script
           async
+          src="https://www.googletagmanager.com/gtag/js?id=G-XX30110B5W"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XX30110B5W');
+          `}
+        </Script>
+        <Script
+          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2057309335537732"
           crossOrigin="anonymous"
           strategy="afterInteractive"
