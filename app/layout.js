@@ -70,12 +70,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-XX30110B5W');
           `}
         </Script>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2057309335537732"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        {/* AdSense removed temporarily */}
       </head>
       <body className={inter.className}>
         <WebsiteJsonLd />

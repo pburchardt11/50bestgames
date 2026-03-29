@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react';
 import { GAMES_DATA, CATEGORIES } from '@/data/games-data';
 import GameCard from '@/components/GameCard';
 import GameModal from '@/components/GameModal';
-import AdUnit from '@/components/AdUnit';
+// import AdUnit from '@/components/AdUnit';
 
 const SORT_OPTIONS = ['rank', 'name', 'rating', 'downloads'];
 
@@ -73,7 +73,7 @@ export default function RankingsClient() {
         </div>
       </header>
 
-      <AdUnit />
+      {/* AdUnit removed temporarily */}
 
       {/* Controls */}
       <div className="rankings-controls">

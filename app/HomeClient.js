@@ -5,7 +5,7 @@ import { GAMES_DATA, COUNTRY_DATA } from '@/data/games-data';
 import GameCard from '@/components/GameCard';
 import GameModal from '@/components/GameModal';
 import Sidebar from '@/components/Sidebar';
-import AdUnit from '@/components/AdUnit';
+// import AdUnit from '@/components/AdUnit';
 
 const FILTER_OPTIONS = ['All', 'Battle Royale', 'MOBA', 'Sandbox', 'FPS', 'Mobile', 'RPG', 'Puzzle'];
 const SORT_OPTIONS = ['rank', 'name', 'rating', 'downloads'];
@@ -60,24 +60,12 @@ export default function HomeClient() {
 
   const visible = filtered.slice(0, showCount);
 
-  const countries = [
-    { value: 'global', label: '\uD83C\uDF10 Global Rankings' },
-    { value: 'united-states', label: '\uD83C\uDDFA\uD83C\uDDF8 United States' },
-    { value: 'brazil', label: '\uD83C\uDDE7\uD83C\uDDF7 Brazil' },
-    { value: 'germany', label: '\uD83C\uDDE9\uD83C\uDDEA Germany' },
-    { value: 'japan', label: '\uD83C\uDDEF\uD83C\uDDF5 Japan' },
-    { value: 'south-korea', label: '\uD83C\uDDF0\uD83C\uDDF7 South Korea' },
-    { value: 'india', label: '\uD83C\uDDEE\uD83C\uDDF3 India' },
-    { value: 'united-kingdom', label: '\uD83C\uDDEC\uD83C\uDDE7 United Kingdom' },
-    { value: 'france', label: '\uD83C\uDDEB\uD83C\uDDF7 France' },
-    { value: 'china', label: '\uD83C\uDDE8\uD83C\uDDF3 China' },
-    { value: 'indonesia', label: '\uD83C\uDDEE\uD83C\uDDE9 Indonesia' },
-    { value: 'mexico', label: '\uD83C\uDDF2\uD83C\uDDFD Mexico' },
-    { value: 'russia', label: '\uD83C\uDDF7\uD83C\uDDFA Russia' },
-    { value: 'turkey', label: '\uD83C\uDDF9\uD83C\uDDF7 Turkey' },
-    { value: 'philippines', label: '\uD83C\uDDF5\uD83C\uDDED Philippines' },
-    { value: 'thailand', label: '\uD83C\uDDF9\uD83C\uDDED Thailand' },
-  ];
+  const countries = useMemo(() => {
+    const list = Object.entries(COUNTRY_DATA)
+      .map(([slug, data]) => ({ value: slug, label: `${data.flag} ${data.name}` }))
+      .sort((a, b) => a.label.replace(/[^\w]/g, '').localeCompare(b.label.replace(/[^\w]/g, '')));
+    return [{ value: 'global', label: '🌐 Global Rankings' }, ...list];
+  }, []);
 
   return (
     <>

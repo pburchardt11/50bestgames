@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import GameCard from '@/components/GameCard';
 import GameModal from '@/components/GameModal';
-import AdUnit from '@/components/AdUnit';
+// import AdUnit from '@/components/AdUnit';
 
 export default function CountryClient({ slug, country, games, allCountries }) {
   const [selectedGame, setSelectedGame] = useState(null);
@@ -45,7 +45,7 @@ export default function CountryClient({ slug, country, games, allCountries }) {
         </div>
       </header>
 
-      <AdUnit />
+      {/* AdUnit removed temporarily */}
 
       {/* Main Content */}
       <main className="main-content">
