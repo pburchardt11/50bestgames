@@ -108,8 +108,6 @@ export default function HomeClient() {
         </div>
       </header>
 
-      <AdUnit />
-
       {/* Country Selector */}
       <section className="country-bar">
         <div className="country-bar-container">

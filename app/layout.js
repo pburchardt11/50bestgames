@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Script from 'next/script';
 import { WebsiteJsonLd } from '@/components/JsonLd';
+import GoogleTranslate from '@/components/GoogleTranslate';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -81,6 +82,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <GoogleTranslate />
       </body>
     </html>
   );
