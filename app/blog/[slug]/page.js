@@ -8,10 +8,25 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const post = BLOG_POSTS.find((p) => p.slug === slug);
-  if (!post) return { title: 'Post Not Found | 50 Best Games' };
+  if (!post) return { title: 'Post Not Found' };
   return {
-    title: `${post.title} | 50 Best Games Blog`,
+    title: post.title,
     description: post.description,
+    alternates: { canonical: `https://50bestgames.com/blog/${slug}` },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      type: 'article',
+      publishedTime: post.date,
+      authors: ['50 Best Games Editorial Team'],
+      images: [`/images/blog/${slug}/hero.jpg`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
+      images: [`/images/blog/${slug}/hero.jpg`],
+    },
   };
 }
 

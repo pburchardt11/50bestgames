@@ -5262,6 +5262,1680 @@ export const COUNTRY_DATA = {
       153,
       45
     ]
+  },
+
+  // ============================================================
+  // EUROPE — Western Europe
+  // ============================================================
+
+  "spain": {
+    "name": "Spain",
+    "code": "ES",
+    "flag": "🇪🇸",
+    "totalGames": 1400,
+    "totalPlayers": "20M+",
+    "description": "Spain has a passionate gaming community with strong mobile and console adoption. FIFA, Fortnite, and League of Legends dominate, and the Spanish esports scene is thriving.",
+    "topGames": [14, 3, 4, 8, 1, 7, 27, 2, 12, 42]
+  },
+  "italy": {
+    "name": "Italy",
+    "code": "IT",
+    "flag": "🇮🇹",
+    "totalGames": 1300,
+    "totalPlayers": "18M+",
+    "description": "Italy has a growing gaming market driven by mobile and console gaming. FIFA and Fortnite are hugely popular, and Italian gamers enjoy competitive and casual titles alike.",
+    "topGames": [14, 3, 7, 1, 2, 8, 27, 42, 11, 4]
+  },
+  "netherlands": {
+    "name": "Netherlands",
+    "code": "NL",
+    "flag": "🇳🇱",
+    "totalGames": 1200,
+    "totalPlayers": "10M+",
+    "description": "The Netherlands has high internet penetration and a strong PC gaming tradition. Dutch gamers enjoy competitive shooters, FIFA, and indie titles.",
+    "topGames": [14, 1, 12, 3, 8, 4, 7, 2, 27, 25]
+  },
+  "belgium": {
+    "name": "Belgium",
+    "code": "BE",
+    "flag": "🇧🇪",
+    "totalGames": 1100,
+    "totalPlayers": "6M+",
+    "description": "Belgium has a mature gaming market with strong PC and console segments. Competitive games and FIFA are popular, and loot box regulations shape the market uniquely.",
+    "topGames": [14, 1, 12, 3, 8, 4, 7, 2, 27, 11]
+  },
+  "austria": {
+    "name": "Austria",
+    "code": "AT",
+    "flag": "🇦🇹",
+    "totalGames": 1100,
+    "totalPlayers": "5M+",
+    "description": "Austria shares much of its gaming culture with Germany. Strategy games, simulators, and competitive PC titles are popular among Austrian gamers.",
+    "topGames": [1, 12, 14, 4, 3, 8, 25, 27, 11, 186]
+  },
+  "switzerland": {
+    "name": "Switzerland",
+    "code": "CH",
+    "flag": "🇨🇭",
+    "totalGames": 1100,
+    "totalPlayers": "5M+",
+    "description": "Switzerland has a wealthy, tech-savvy gaming audience. PC gaming is strong, and Swiss players enjoy a mix of competitive and simulation titles.",
+    "topGames": [1, 14, 12, 3, 8, 4, 25, 27, 186, 11]
+  },
+  "portugal": {
+    "name": "Portugal",
+    "code": "PT",
+    "flag": "🇵🇹",
+    "totalGames": 1000,
+    "totalPlayers": "5M+",
+    "description": "Portugal has a growing gaming market with strong FIFA and CS2 communities. Portuguese gamers are passionate about competitive titles and sports games.",
+    "topGames": [14, 12, 3, 4, 8, 1, 7, 27, 2, 42]
+  },
+  "ireland": {
+    "name": "Ireland",
+    "code": "IE",
+    "flag": "🇮🇪",
+    "totalGames": 1000,
+    "totalPlayers": "3M+",
+    "description": "Ireland has a gaming culture similar to the UK, with strong console adoption. FIFA, Fortnite, and Call of Duty are among the most popular titles.",
+    "topGames": [3, 14, 7, 1, 2, 11, 27, 10, 8, 41]
+  },
+  "luxembourg": {
+    "name": "Luxembourg",
+    "code": "LU",
+    "flag": "🇱🇺",
+    "totalGames": 800,
+    "totalPlayers": "350K+",
+    "description": "Luxembourg's small but affluent gaming market mirrors Western European trends with strong PC and console gaming adoption.",
+    "topGames": [1, 14, 3, 12, 8, 4, 7, 27, 2, 25]
+  },
+  "malta": {
+    "name": "Malta",
+    "code": "MT",
+    "flag": "🇲🇹",
+    "totalGames": 700,
+    "totalPlayers": "250K+",
+    "description": "Malta is a small but connected gaming market. The island nation also hosts several gaming and iGaming companies.",
+    "topGames": [3, 14, 1, 7, 2, 8, 27, 11, 4, 42]
+  },
+  "cyprus": {
+    "name": "Cyprus",
+    "code": "CY",
+    "flag": "🇨🇾",
+    "totalGames": 700,
+    "totalPlayers": "500K+",
+    "description": "Cyprus has a small gaming community influenced by both European and Middle Eastern gaming trends.",
+    "topGames": [3, 8, 14, 12, 1, 4, 7, 5, 2, 42]
+  },
+  "greece": {
+    "name": "Greece",
+    "code": "GR",
+    "flag": "🇬🇷",
+    "totalGames": 1000,
+    "totalPlayers": "5M+",
+    "description": "Greece has a dedicated gaming community with strong PC gaming culture. League of Legends and CS2 have large followings among Greek gamers.",
+    "topGames": [4, 12, 3, 8, 14, 1, 7, 2, 27, 13]
+  },
+  "monaco": {
+    "name": "Monaco",
+    "code": "MC",
+    "flag": "🇲🇨",
+    "totalGames": 600,
+    "totalPlayers": "20K+",
+    "description": "Monaco's tiny but wealthy population enjoys premium gaming experiences across console and PC platforms.",
+    "topGames": [3, 14, 1, 7, 11, 27, 2, 8, 30, 6]
+  },
+  "andorra": {
+    "name": "Andorra",
+    "code": "AD",
+    "flag": "🇦🇩",
+    "totalGames": 600,
+    "totalPlayers": "40K+",
+    "description": "Andorra's small population enjoys gaming trends similar to Spain and France, with FIFA and Fortnite leading.",
+    "topGames": [14, 3, 1, 4, 8, 7, 2, 27, 12, 42]
+  },
+  "san-marino": {
+    "name": "San Marino",
+    "code": "SM",
+    "flag": "🇸🇲",
+    "totalGames": 500,
+    "totalPlayers": "15K+",
+    "description": "San Marino's microstate gaming market closely follows Italian gaming trends.",
+    "topGames": [14, 3, 1, 7, 2, 8, 27, 42, 11, 4]
+  },
+  "liechtenstein": {
+    "name": "Liechtenstein",
+    "code": "LI",
+    "flag": "🇱🇮",
+    "totalGames": 500,
+    "totalPlayers": "20K+",
+    "description": "Liechtenstein's gaming preferences closely mirror those of Switzerland and Austria.",
+    "topGames": [1, 14, 12, 3, 8, 4, 25, 27, 186, 11]
+  },
+
+  // ============================================================
+  // EUROPE — Nordics
+  // ============================================================
+
+  "sweden": {
+    "name": "Sweden",
+    "code": "SE",
+    "flag": "🇸🇪",
+    "totalGames": 1400,
+    "totalPlayers": "6M+",
+    "description": "Sweden is a gaming powerhouse that produced Minecraft, Candy Crush, and Battlefield. Swedish gamers favor PC gaming, with CS2, Valorant, and Minecraft being top titles.",
+    "topGames": [1, 12, 8, 3, 4, 7, 25, 2, 11, 14]
+  },
+  "norway": {
+    "name": "Norway",
+    "code": "NO",
+    "flag": "🇳🇴",
+    "totalGames": 1200,
+    "totalPlayers": "3M+",
+    "description": "Norway has one of the highest gaming participation rates globally. PC gaming dominates, and Norwegian gamers enjoy competitive shooters and sandbox titles.",
+    "topGames": [1, 3, 12, 8, 7, 4, 2, 14, 11, 25]
+  },
+  "denmark": {
+    "name": "Denmark",
+    "code": "DK",
+    "flag": "🇩🇰",
+    "totalGames": 1200,
+    "totalPlayers": "3.5M+",
+    "description": "Denmark has a strong PC gaming culture with high participation rates. CS2, Minecraft, and FIFA are among the most popular games.",
+    "topGames": [12, 1, 14, 3, 8, 4, 7, 2, 25, 11]
+  },
+  "finland": {
+    "name": "Finland",
+    "code": "FI",
+    "flag": "🇫🇮",
+    "totalGames": 1300,
+    "totalPlayers": "3M+",
+    "description": "Finland is home to Supercell and Rovio, making it a mobile gaming powerhouse. Finnish PC gamers are passionate about CS2, Dota 2, and simulation games.",
+    "topGames": [12, 1, 8, 3, 13, 4, 21, 22, 2, 186]
+  },
+  "iceland": {
+    "name": "Iceland",
+    "code": "IS",
+    "flag": "🇮🇸",
+    "totalGames": 800,
+    "totalPlayers": "200K+",
+    "description": "Iceland has one of the highest per-capita gaming rates in the world. Home to CCP Games (EVE Online), Icelanders are avid PC gamers.",
+    "topGames": [1, 12, 3, 8, 4, 25, 7, 2, 14, 11]
+  },
+
+  // ============================================================
+  // EUROPE — Eastern Europe
+  // ============================================================
+
+  "poland": {
+    "name": "Poland",
+    "code": "PL",
+    "flag": "🇵🇱",
+    "totalGames": 1500,
+    "totalPlayers": "20M+",
+    "description": "Poland is home to CD Projekt Red (The Witcher, Cyberpunk) and has a vibrant PC gaming culture. CS2, League of Legends, and Valorant are massively popular.",
+    "topGames": [12, 4, 8, 1, 3, 30, 29, 24, 25, 13]
+  },
+  "czech-republic": {
+    "name": "Czech Republic",
+    "code": "CZ",
+    "flag": "🇨🇿",
+    "totalGames": 1200,
+    "totalPlayers": "6M+",
+    "description": "The Czech Republic has a strong PC gaming tradition. Home to studios like Bohemia Interactive and Warhorse, Czech gamers love simulation and strategy titles alongside CS2.",
+    "topGames": [12, 1, 8, 4, 3, 13, 25, 35, 7, 186]
+  },
+  "slovakia": {
+    "name": "Slovakia",
+    "code": "SK",
+    "flag": "🇸🇰",
+    "totalGames": 1000,
+    "totalPlayers": "3M+",
+    "description": "Slovakia shares gaming culture with the Czech Republic, with strong PC gaming and competitive CS2 and LoL communities.",
+    "topGames": [12, 4, 1, 8, 3, 13, 25, 14, 7, 2]
+  },
+  "hungary": {
+    "name": "Hungary",
+    "code": "HU",
+    "flag": "🇭🇺",
+    "totalGames": 1000,
+    "totalPlayers": "5M+",
+    "description": "Hungary has an active gaming scene with strong indie development. Hungarian gamers enjoy competitive PC titles and strategy games.",
+    "topGames": [4, 12, 8, 1, 3, 13, 25, 14, 7, 2]
+  },
+  "romania": {
+    "name": "Romania",
+    "code": "RO",
+    "flag": "🇷🇴",
+    "totalGames": 1000,
+    "totalPlayers": "8M+",
+    "description": "Romania has a passionate gaming community driven by affordable PC hardware and fast internet. CS2, Dota 2, and LoL dominate the competitive scene.",
+    "topGames": [12, 13, 4, 8, 1, 3, 14, 7, 2, 25]
+  },
+  "bulgaria": {
+    "name": "Bulgaria",
+    "code": "BG",
+    "flag": "🇧🇬",
+    "totalGames": 900,
+    "totalPlayers": "3M+",
+    "description": "Bulgaria's gaming market is growing, with strong PC gaming culture. CS2 and Dota 2 are the most popular competitive titles.",
+    "topGames": [12, 13, 4, 8, 1, 3, 14, 7, 2, 25]
+  },
+  "croatia": {
+    "name": "Croatia",
+    "code": "HR",
+    "flag": "🇭🇷",
+    "totalGames": 900,
+    "totalPlayers": "2M+",
+    "description": "Croatia has a dedicated gaming community with strong CS2 and LoL followings. The country also has a growing indie game development scene.",
+    "topGames": [12, 4, 8, 14, 1, 3, 13, 7, 2, 25]
+  },
+  "serbia": {
+    "name": "Serbia",
+    "code": "RS",
+    "flag": "🇷🇸",
+    "totalGames": 900,
+    "totalPlayers": "3.5M+",
+    "description": "Serbia has an active gaming community with competitive CS2 and Dota 2 scenes. Serbian gamers are passionate about PC gaming.",
+    "topGames": [12, 13, 4, 8, 1, 3, 14, 7, 2, 35]
+  },
+  "slovenia": {
+    "name": "Slovenia",
+    "code": "SI",
+    "flag": "🇸🇮",
+    "totalGames": 800,
+    "totalPlayers": "1M+",
+    "description": "Slovenia has a small but passionate gaming community with strong PC gaming traditions and competitive CS2 players.",
+    "topGames": [12, 4, 8, 1, 3, 14, 13, 7, 2, 25]
+  },
+  "bosnia-and-herzegovina": {
+    "name": "Bosnia and Herzegovina",
+    "code": "BA",
+    "flag": "🇧🇦",
+    "totalGames": 800,
+    "totalPlayers": "1.5M+",
+    "description": "Bosnia and Herzegovina has a growing gaming scene with CS2 and League of Legends at the forefront of competitive play.",
+    "topGames": [12, 4, 13, 8, 1, 3, 14, 7, 2, 5]
+  },
+  "north-macedonia": {
+    "name": "North Macedonia",
+    "code": "MK",
+    "flag": "🇲🇰",
+    "totalGames": 700,
+    "totalPlayers": "1M+",
+    "description": "North Macedonia has a small gaming community that follows Balkan gaming trends, with CS2 and LoL leading.",
+    "topGames": [12, 4, 13, 8, 1, 3, 14, 5, 2, 7]
+  },
+  "montenegro": {
+    "name": "Montenegro",
+    "code": "ME",
+    "flag": "🇲🇪",
+    "totalGames": 600,
+    "totalPlayers": "300K+",
+    "description": "Montenegro's small gaming market follows regional Balkan trends with CS2 and LoL being popular competitive titles.",
+    "topGames": [12, 4, 13, 8, 1, 3, 14, 5, 2, 7]
+  },
+  "albania": {
+    "name": "Albania",
+    "code": "AL",
+    "flag": "🇦🇱",
+    "totalGames": 700,
+    "totalPlayers": "1.5M+",
+    "description": "Albania has a growing gaming community, particularly among younger players. Mobile gaming and CS2 are popular.",
+    "topGames": [12, 5, 3, 8, 4, 1, 14, 19, 2, 42]
+  },
+  "kosovo": {
+    "name": "Kosovo",
+    "code": "XK",
+    "flag": "🇽🇰",
+    "totalGames": 600,
+    "totalPlayers": "800K+",
+    "description": "Kosovo has a young, growing gaming community with strong interest in competitive titles like CS2 and Valorant.",
+    "topGames": [12, 8, 4, 3, 1, 5, 14, 13, 2, 7]
+  },
+  "moldova": {
+    "name": "Moldova",
+    "code": "MD",
+    "flag": "🇲🇩",
+    "totalGames": 700,
+    "totalPlayers": "1.5M+",
+    "description": "Moldova's gaming scene is influenced by both Romanian and Russian gaming cultures, with CS2 and Dota 2 being popular.",
+    "topGames": [12, 13, 4, 8, 1, 3, 35, 5, 14, 2]
+  },
+  "ukraine": {
+    "name": "Ukraine",
+    "code": "UA",
+    "flag": "🇺🇦",
+    "totalGames": 1300,
+    "totalPlayers": "18M+",
+    "description": "Ukraine has a vibrant gaming industry with major studios like GSC Game World and 4A Games. CS2, Dota 2, and World of Tanks are hugely popular among Ukrainian gamers.",
+    "topGames": [12, 13, 8, 4, 1, 35, 48, 3, 25, 36]
+  },
+  "belarus": {
+    "name": "Belarus",
+    "code": "BY",
+    "flag": "🇧🇾",
+    "totalGames": 900,
+    "totalPlayers": "4M+",
+    "description": "Belarus is home to Wargaming (World of Tanks) and has a strong PC gaming culture. CS2, Dota 2, and World of Tanks dominate.",
+    "topGames": [48, 12, 13, 8, 4, 1, 35, 3, 25, 36]
+  },
+
+  // ============================================================
+  // EUROPE — Baltics
+  // ============================================================
+
+  "estonia": {
+    "name": "Estonia",
+    "code": "EE",
+    "flag": "🇪🇪",
+    "totalGames": 800,
+    "totalPlayers": "700K+",
+    "description": "Estonia is one of the most digitally connected countries in the world. CS2 and Dota 2 have strong followings among Estonian gamers.",
+    "topGames": [12, 13, 8, 1, 4, 3, 25, 7, 2, 14]
+  },
+  "latvia": {
+    "name": "Latvia",
+    "code": "LV",
+    "flag": "🇱🇻",
+    "totalGames": 800,
+    "totalPlayers": "900K+",
+    "description": "Latvia has a dedicated PC gaming community with CS2 and Dota 2 being the most popular competitive titles.",
+    "topGames": [12, 13, 8, 4, 1, 3, 25, 7, 14, 2]
+  },
+  "lithuania": {
+    "name": "Lithuania",
+    "code": "LT",
+    "flag": "🇱🇹",
+    "totalGames": 800,
+    "totalPlayers": "1.5M+",
+    "description": "Lithuania has an active gaming scene with strong CS2 and Dota 2 communities. The country also has a growing game development sector.",
+    "topGames": [12, 13, 8, 4, 1, 3, 25, 7, 14, 2]
+  },
+
+  // ============================================================
+  // AMERICAS — North America
+  // ============================================================
+
+  "canada": {
+    "name": "Canada",
+    "code": "CA",
+    "flag": "🇨🇦",
+    "totalGames": 2200,
+    "totalPlayers": "23M+",
+    "description": "Canada has a thriving gaming market similar to the US, with major studios like BioWare and Ubisoft Montreal. Canadian gamers enjoy a diverse mix of shooters, sports games, and RPGs.",
+    "topGames": [1, 2, 3, 7, 8, 10, 12, 4, 11, 14]
+  },
+
+  // ============================================================
+  // AMERICAS — Central America & Caribbean
+  // ============================================================
+
+  "guatemala": {
+    "name": "Guatemala",
+    "code": "GT",
+    "flag": "🇬🇹",
+    "totalGames": 700,
+    "totalPlayers": "5M+",
+    "description": "Guatemala's gaming market is mobile-first, with Free Fire and mobile casual games leading. Younger demographics drive gaming adoption.",
+    "topGames": [19, 42, 3, 2, 21, 14, 5, 1, 16, 39]
+  },
+  "honduras": {
+    "name": "Honduras",
+    "code": "HN",
+    "flag": "🇭🇳",
+    "totalGames": 600,
+    "totalPlayers": "3M+",
+    "description": "Honduras has a growing mobile gaming market. Free Fire and casual titles are the most popular among Honduran gamers.",
+    "topGames": [19, 42, 3, 2, 21, 14, 5, 1, 16, 39]
+  },
+  "el-salvador": {
+    "name": "El Salvador",
+    "code": "SV",
+    "flag": "🇸🇻",
+    "totalGames": 600,
+    "totalPlayers": "2M+",
+    "description": "El Salvador's gaming community is mobile-centric, with Free Fire and FIFA being popular titles.",
+    "topGames": [19, 42, 14, 3, 2, 21, 5, 1, 16, 39]
+  },
+  "nicaragua": {
+    "name": "Nicaragua",
+    "code": "NI",
+    "flag": "🇳🇮",
+    "totalGames": 600,
+    "totalPlayers": "2M+",
+    "description": "Nicaragua has a small but growing mobile gaming market driven by affordable smartphones.",
+    "topGames": [19, 42, 3, 2, 21, 14, 5, 1, 16, 39]
+  },
+  "costa-rica": {
+    "name": "Costa Rica",
+    "code": "CR",
+    "flag": "🇨🇷",
+    "totalGames": 700,
+    "totalPlayers": "2.5M+",
+    "description": "Costa Rica has good internet infrastructure and a growing gaming community. FIFA, Free Fire, and Fortnite are popular.",
+    "topGames": [14, 19, 3, 42, 2, 1, 8, 4, 21, 7]
+  },
+  "panama": {
+    "name": "Panama",
+    "code": "PA",
+    "flag": "🇵🇦",
+    "totalGames": 700,
+    "totalPlayers": "2M+",
+    "description": "Panama has a mobile-heavy gaming market with growing interest in competitive titles.",
+    "topGames": [19, 3, 42, 14, 2, 1, 21, 5, 8, 7]
+  },
+  "belize": {
+    "name": "Belize",
+    "code": "BZ",
+    "flag": "🇧🇿",
+    "totalGames": 500,
+    "totalPlayers": "150K+",
+    "description": "Belize has a small gaming community influenced by both Central American and Caribbean gaming trends.",
+    "topGames": [3, 19, 42, 2, 14, 1, 21, 5, 7, 8]
+  },
+  "cuba": {
+    "name": "Cuba",
+    "code": "CU",
+    "flag": "🇨🇺",
+    "totalGames": 500,
+    "totalPlayers": "2M+",
+    "description": "Cuba's gaming market is constrained by limited internet access, but mobile gaming is growing rapidly as connectivity improves.",
+    "topGames": [19, 42, 21, 2, 3, 1, 5, 14, 16, 39]
+  },
+  "jamaica": {
+    "name": "Jamaica",
+    "code": "JM",
+    "flag": "🇯🇲",
+    "totalGames": 600,
+    "totalPlayers": "1.5M+",
+    "description": "Jamaica has a mobile-heavy gaming market. FIFA, Free Fire, and casual mobile games are popular among Jamaican gamers.",
+    "topGames": [14, 19, 3, 42, 2, 21, 1, 5, 7, 9]
+  },
+  "haiti": {
+    "name": "Haiti",
+    "code": "HT",
+    "flag": "🇭🇹",
+    "totalGames": 500,
+    "totalPlayers": "2M+",
+    "description": "Haiti has a growing mobile gaming market despite infrastructure challenges. Free Fire and casual games are most accessible.",
+    "topGames": [19, 42, 21, 2, 3, 5, 14, 1, 16, 39]
+  },
+  "dominican-republic": {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "flag": "🇩🇴",
+    "totalGames": 700,
+    "totalPlayers": "4M+",
+    "description": "The Dominican Republic has a growing gaming community led by mobile titles. Free Fire and FIFA are among the most played games.",
+    "topGames": [19, 14, 3, 42, 2, 21, 1, 5, 7, 8]
+  },
+  "trinidad-and-tobago": {
+    "name": "Trinidad and Tobago",
+    "code": "TT",
+    "flag": "🇹🇹",
+    "totalGames": 600,
+    "totalPlayers": "700K+",
+    "description": "Trinidad and Tobago has a diverse gaming community with both mobile and console gaming popular among its tech-savvy population.",
+    "topGames": [3, 14, 7, 2, 1, 19, 42, 8, 21, 11]
+  },
+  "bahamas": {
+    "name": "Bahamas",
+    "code": "BS",
+    "flag": "🇧🇸",
+    "totalGames": 500,
+    "totalPlayers": "200K+",
+    "description": "The Bahamas has a small gaming market influenced by US gaming culture, with mobile and console gaming both popular.",
+    "topGames": [3, 14, 7, 2, 1, 8, 11, 19, 42, 10]
+  },
+  "barbados": {
+    "name": "Barbados",
+    "code": "BB",
+    "flag": "🇧🇧",
+    "totalGames": 500,
+    "totalPlayers": "150K+",
+    "description": "Barbados has a small but connected gaming community with mobile and console gaming driving the market.",
+    "topGames": [3, 14, 2, 1, 7, 19, 42, 8, 21, 11]
+  },
+  "puerto-rico": {
+    "name": "Puerto Rico",
+    "code": "PR",
+    "flag": "🇵🇷",
+    "totalGames": 800,
+    "totalPlayers": "1.5M+",
+    "description": "Puerto Rico's gaming market mirrors US trends with strong console and mobile adoption. Fortnite, FIFA, and Call of Duty are popular.",
+    "topGames": [3, 7, 14, 2, 1, 8, 10, 11, 42, 19]
+  },
+
+  // ============================================================
+  // AMERICAS — South America
+  // ============================================================
+
+  "argentina": {
+    "name": "Argentina",
+    "code": "AR",
+    "flag": "🇦🇷",
+    "totalGames": 1300,
+    "totalPlayers": "22M+",
+    "description": "Argentina has a passionate gaming community with strong FIFA and CS2 cultures. Free-to-play titles and competitive games dominate the market.",
+    "topGames": [14, 12, 19, 3, 4, 8, 1, 42, 2, 23]
+  },
+  "colombia": {
+    "name": "Colombia",
+    "code": "CO",
+    "flag": "🇨🇴",
+    "totalGames": 1100,
+    "totalPlayers": "22M+",
+    "description": "Colombia is one of Latin America's fastest-growing gaming markets. Free Fire, FIFA, and Fortnite lead the charts, with mobile gaming driving growth.",
+    "topGames": [19, 14, 3, 42, 2, 21, 4, 1, 8, 12]
+  },
+  "chile": {
+    "name": "Chile",
+    "code": "CL",
+    "flag": "🇨🇱",
+    "totalGames": 1100,
+    "totalPlayers": "10M+",
+    "description": "Chile has Latin America's highest internet penetration and a mature gaming market. LoL, CS2, and Valorant have large competitive communities.",
+    "topGames": [4, 12, 8, 3, 14, 1, 19, 42, 2, 7]
+  },
+  "peru": {
+    "name": "Peru",
+    "code": "PE",
+    "flag": "🇵🇪",
+    "totalGames": 1000,
+    "totalPlayers": "15M+",
+    "description": "Peru has a strong Dota 2 and League of Legends scene. Free Fire and mobile gaming drive the broader market, while PC cafes remain popular for competitive play.",
+    "topGames": [13, 4, 19, 3, 42, 14, 12, 2, 21, 1]
+  },
+  "venezuela": {
+    "name": "Venezuela",
+    "code": "VE",
+    "flag": "🇻🇪",
+    "totalGames": 800,
+    "totalPlayers": "10M+",
+    "description": "Venezuela has an active gaming community despite economic challenges. Free-to-play games dominate, and some players earn income through gaming.",
+    "topGames": [19, 4, 42, 3, 12, 13, 2, 21, 14, 1]
+  },
+  "ecuador": {
+    "name": "Ecuador",
+    "code": "EC",
+    "flag": "🇪🇨",
+    "totalGames": 800,
+    "totalPlayers": "7M+",
+    "description": "Ecuador has a mobile-driven gaming market with Free Fire being especially popular. Competitive PC gaming is growing in urban areas.",
+    "topGames": [19, 42, 3, 14, 4, 2, 21, 12, 1, 13]
+  },
+  "bolivia": {
+    "name": "Bolivia",
+    "code": "BO",
+    "flag": "🇧🇴",
+    "totalGames": 700,
+    "totalPlayers": "4M+",
+    "description": "Bolivia has a growing mobile gaming market. Free Fire and FIFA are the most popular titles among Bolivian gamers.",
+    "topGames": [19, 14, 42, 3, 2, 21, 4, 1, 12, 5]
+  },
+  "paraguay": {
+    "name": "Paraguay",
+    "code": "PY",
+    "flag": "🇵🇾",
+    "totalGames": 700,
+    "totalPlayers": "3M+",
+    "description": "Paraguay has a small but growing gaming market driven by mobile gaming. Free Fire and FIFA are among the most popular titles.",
+    "topGames": [19, 14, 42, 3, 2, 21, 4, 1, 12, 5]
+  },
+  "uruguay": {
+    "name": "Uruguay",
+    "code": "UY",
+    "flag": "🇺🇾",
+    "totalGames": 800,
+    "totalPlayers": "2M+",
+    "description": "Uruguay has high internet penetration and a gaming culture influenced by Argentina. FIFA, CS2, and LoL are popular.",
+    "topGames": [14, 12, 4, 3, 19, 8, 1, 42, 2, 13]
+  },
+  "guyana": {
+    "name": "Guyana",
+    "code": "GY",
+    "flag": "🇬🇾",
+    "totalGames": 500,
+    "totalPlayers": "300K+",
+    "description": "Guyana has a small gaming market with mobile gaming being the primary platform.",
+    "topGames": [19, 3, 42, 2, 14, 1, 21, 5, 7, 8]
+  },
+  "suriname": {
+    "name": "Suriname",
+    "code": "SR",
+    "flag": "🇸🇷",
+    "totalGames": 500,
+    "totalPlayers": "200K+",
+    "description": "Suriname has a tiny gaming market with mobile gaming dominating due to smartphone accessibility.",
+    "topGames": [19, 42, 3, 2, 14, 21, 1, 5, 7, 8]
+  },
+
+  // ============================================================
+  // ASIA — Southeast Asia
+  // ============================================================
+
+  "vietnam": {
+    "name": "Vietnam",
+    "code": "VN",
+    "flag": "🇻🇳",
+    "totalGames": 1200,
+    "totalPlayers": "50M+",
+    "description": "Vietnam is one of Southeast Asia's largest gaming markets. PUBG Mobile, Free Fire, and Lien Quan (Arena of Valor) dominate, with a strong PC cafe culture for LoL and Valorant.",
+    "topGames": [5, 19, 44, 4, 8, 43, 2, 42, 21, 13]
+  },
+  "malaysia": {
+    "name": "Malaysia",
+    "code": "MY",
+    "flag": "🇲🇾",
+    "totalGames": 1100,
+    "totalPlayers": "18M+",
+    "description": "Malaysia has a diverse gaming market with Mobile Legends, PUBG Mobile, and Genshin Impact among the most popular titles. The country has a growing esports ecosystem.",
+    "topGames": [43, 5, 6, 19, 8, 42, 2, 4, 21, 1]
+  },
+  "singapore": {
+    "name": "Singapore",
+    "code": "SG",
+    "flag": "🇸🇬",
+    "totalGames": 1200,
+    "totalPlayers": "3.5M+",
+    "description": "Singapore is a wealthy, tech-savvy gaming market. Gamers enjoy a diverse mix of mobile, PC, and console titles with high spending per capita.",
+    "topGames": [43, 8, 6, 5, 4, 1, 3, 2, 12, 7]
+  },
+  "myanmar": {
+    "name": "Myanmar",
+    "code": "MM",
+    "flag": "🇲🇲",
+    "totalGames": 700,
+    "totalPlayers": "15M+",
+    "description": "Myanmar's gaming market is mobile-first. PUBG Mobile and Free Fire are dominant, with mobile MOBAs also gaining traction.",
+    "topGames": [5, 19, 43, 42, 21, 2, 44, 16, 39, 1]
+  },
+  "cambodia": {
+    "name": "Cambodia",
+    "code": "KH",
+    "flag": "🇰🇭",
+    "totalGames": 600,
+    "totalPlayers": "6M+",
+    "description": "Cambodia has a rapidly growing mobile gaming market. PUBG Mobile and Free Fire lead, with mobile MOBAs growing in popularity.",
+    "topGames": [5, 19, 43, 42, 21, 44, 2, 16, 39, 1]
+  },
+  "laos": {
+    "name": "Laos",
+    "code": "LA",
+    "flag": "🇱🇦",
+    "totalGames": 500,
+    "totalPlayers": "2M+",
+    "description": "Laos has a small but growing gaming market dominated by mobile titles. PUBG Mobile and Free Fire are the most popular games.",
+    "topGames": [5, 19, 43, 42, 21, 44, 2, 16, 39, 1]
+  },
+  "brunei": {
+    "name": "Brunei",
+    "code": "BN",
+    "flag": "🇧🇳",
+    "totalGames": 600,
+    "totalPlayers": "200K+",
+    "description": "Brunei has a small but affluent gaming market. Mobile Legends and PUBG Mobile are popular, alongside console gaming.",
+    "topGames": [43, 5, 6, 8, 3, 19, 2, 1, 42, 4]
+  },
+  "timor-leste": {
+    "name": "Timor-Leste",
+    "code": "TL",
+    "flag": "🇹🇱",
+    "totalGames": 400,
+    "totalPlayers": "400K+",
+    "description": "Timor-Leste has a nascent gaming market with mobile gaming being the primary platform for the young population.",
+    "topGames": [19, 5, 42, 43, 21, 2, 16, 39, 44, 1]
+  },
+
+  // ============================================================
+  // ASIA — South Asia
+  // ============================================================
+
+  "pakistan": {
+    "name": "Pakistan",
+    "code": "PK",
+    "flag": "🇵🇰",
+    "totalGames": 1000,
+    "totalPlayers": "60M+",
+    "description": "Pakistan's gaming market is exploding, driven by mobile gaming. PUBG Mobile and Free Fire are massively popular, and the country has a growing esports scene.",
+    "topGames": [5, 19, 42, 21, 16, 39, 2, 3, 14, 1]
+  },
+  "bangladesh": {
+    "name": "Bangladesh",
+    "code": "BD",
+    "flag": "🇧🇩",
+    "totalGames": 800,
+    "totalPlayers": "45M+",
+    "description": "Bangladesh has a fast-growing mobile gaming market. PUBG Mobile and Free Fire dominate, with affordable smartphones driving adoption.",
+    "topGames": [5, 19, 42, 21, 16, 39, 2, 3, 14, 1]
+  },
+  "sri-lanka": {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "flag": "🇱🇰",
+    "totalGames": 700,
+    "totalPlayers": "8M+",
+    "description": "Sri Lanka has an active mobile gaming community. PUBG Mobile and Free Fire lead, with growing interest in competitive PC gaming.",
+    "topGames": [5, 19, 42, 21, 16, 2, 3, 39, 14, 1]
+  },
+  "nepal": {
+    "name": "Nepal",
+    "code": "NP",
+    "flag": "🇳🇵",
+    "totalGames": 600,
+    "totalPlayers": "10M+",
+    "description": "Nepal's gaming market is mobile-driven. PUBG Mobile and Free Fire are the most popular titles among Nepali youth.",
+    "topGames": [5, 19, 42, 21, 16, 39, 2, 3, 14, 1]
+  },
+  "bhutan": {
+    "name": "Bhutan",
+    "code": "BT",
+    "flag": "🇧🇹",
+    "totalGames": 400,
+    "totalPlayers": "200K+",
+    "description": "Bhutan has a small gaming market with mobile gaming being the primary platform as internet access expands.",
+    "topGames": [5, 19, 42, 21, 2, 16, 39, 3, 1, 14]
+  },
+  "maldives": {
+    "name": "Maldives",
+    "code": "MV",
+    "flag": "🇲🇻",
+    "totalGames": 400,
+    "totalPlayers": "200K+",
+    "description": "The Maldives has a tiny but growing gaming market with mobile gaming dominant among its young population.",
+    "topGames": [5, 19, 42, 3, 2, 21, 14, 1, 8, 7]
+  },
+  "afghanistan": {
+    "name": "Afghanistan",
+    "code": "AF",
+    "flag": "🇦🇫",
+    "totalGames": 400,
+    "totalPlayers": "5M+",
+    "description": "Afghanistan has a growing mobile gaming scene despite infrastructure challenges. PUBG Mobile is the most popular game.",
+    "topGames": [5, 19, 42, 21, 16, 39, 2, 14, 3, 1]
+  },
+
+  // ============================================================
+  // ASIA — East Asia
+  // ============================================================
+
+  "taiwan": {
+    "name": "Taiwan",
+    "code": "TW",
+    "flag": "🇹🇼",
+    "totalGames": 1500,
+    "totalPlayers": "15M+",
+    "description": "Taiwan has a mature gaming market with strong PC and mobile segments. LoL, Valorant, and gacha games are hugely popular among Taiwanese gamers.",
+    "topGames": [4, 8, 6, 1, 46, 50, 12, 32, 2, 18]
+  },
+  "hong-kong": {
+    "name": "Hong Kong",
+    "code": "HK",
+    "flag": "🇭🇰",
+    "totalGames": 1300,
+    "totalPlayers": "4.5M+",
+    "description": "Hong Kong has a diverse gaming market mixing Chinese and international titles. Mobile gaming is strong, with gacha and competitive titles leading.",
+    "topGames": [18, 6, 4, 46, 50, 8, 1, 5, 2, 12]
+  },
+  "mongolia": {
+    "name": "Mongolia",
+    "code": "MN",
+    "flag": "🇲🇳",
+    "totalGames": 600,
+    "totalPlayers": "1.5M+",
+    "description": "Mongolia has a growing gaming community with strong Dota 2 and PUBG Mobile followings, influenced by both Russian and Asian gaming cultures.",
+    "topGames": [13, 5, 12, 8, 4, 1, 3, 42, 19, 2]
+  },
+
+  // ============================================================
+  // ASIA — Central Asia
+  // ============================================================
+
+  "kazakhstan": {
+    "name": "Kazakhstan",
+    "code": "KZ",
+    "flag": "🇰🇿",
+    "totalGames": 900,
+    "totalPlayers": "8M+",
+    "description": "Kazakhstan has a strong CS2 and Dota 2 tradition. The country has produced notable esports players and has a growing gaming ecosystem.",
+    "topGames": [12, 13, 8, 5, 4, 1, 3, 35, 48, 2]
+  },
+  "uzbekistan": {
+    "name": "Uzbekistan",
+    "code": "UZ",
+    "flag": "🇺🇿",
+    "totalGames": 700,
+    "totalPlayers": "10M+",
+    "description": "Uzbekistan has a growing gaming market with CS2 and Dota 2 being the most popular competitive titles alongside mobile games.",
+    "topGames": [12, 13, 5, 8, 19, 42, 4, 1, 3, 21]
+  },
+  "turkmenistan": {
+    "name": "Turkmenistan",
+    "code": "TM",
+    "flag": "🇹🇲",
+    "totalGames": 500,
+    "totalPlayers": "2M+",
+    "description": "Turkmenistan has a small gaming market with limited internet access, but CS2 and mobile gaming are growing.",
+    "topGames": [12, 13, 5, 19, 42, 8, 4, 1, 21, 3]
+  },
+  "kyrgyzstan": {
+    "name": "Kyrgyzstan",
+    "code": "KG",
+    "flag": "🇰🇬",
+    "totalGames": 600,
+    "totalPlayers": "2.5M+",
+    "description": "Kyrgyzstan has an active gaming community centered on CS2 and Dota 2. Mobile gaming is also growing rapidly.",
+    "topGames": [12, 13, 5, 8, 19, 42, 4, 1, 3, 21]
+  },
+  "tajikistan": {
+    "name": "Tajikistan",
+    "code": "TJ",
+    "flag": "🇹🇯",
+    "totalGames": 500,
+    "totalPlayers": "2M+",
+    "description": "Tajikistan has a small gaming market with mobile gaming growing as smartphone adoption increases.",
+    "topGames": [5, 19, 12, 13, 42, 8, 21, 4, 1, 3]
+  },
+
+  // ============================================================
+  // ASIA — Middle East
+  // ============================================================
+
+  "saudi-arabia": {
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "flag": "🇸🇦",
+    "totalGames": 1300,
+    "totalPlayers": "22M+",
+    "description": "Saudi Arabia is the Middle East's largest gaming market with massive government investment in gaming and esports. FIFA, PUBG, and Fortnite are hugely popular.",
+    "topGames": [14, 5, 3, 8, 7, 2, 1, 42, 19, 16]
+  },
+  "united-arab-emirates": {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "flag": "🇦🇪",
+    "totalGames": 1200,
+    "totalPlayers": "6M+",
+    "description": "The UAE has a wealthy, diverse gaming market. FIFA, Fortnite, and PUBG are popular, and the country hosts major esports tournaments.",
+    "topGames": [14, 3, 5, 8, 7, 1, 2, 42, 19, 16]
+  },
+  "qatar": {
+    "name": "Qatar",
+    "code": "QA",
+    "flag": "🇶🇦",
+    "totalGames": 1000,
+    "totalPlayers": "1.5M+",
+    "description": "Qatar has a wealthy gaming market with high spending per capita. FIFA, PUBG, and Fortnite are popular among Qatari gamers.",
+    "topGames": [14, 5, 3, 8, 7, 1, 2, 42, 19, 16]
+  },
+  "kuwait": {
+    "name": "Kuwait",
+    "code": "KW",
+    "flag": "🇰🇼",
+    "totalGames": 1000,
+    "totalPlayers": "2.5M+",
+    "description": "Kuwait has a high-spending gaming market. FIFA, PUBG Mobile, and Fortnite are among the most popular titles.",
+    "topGames": [14, 5, 3, 8, 7, 1, 2, 42, 19, 16]
+  },
+  "bahrain": {
+    "name": "Bahrain",
+    "code": "BH",
+    "flag": "🇧🇭",
+    "totalGames": 900,
+    "totalPlayers": "800K+",
+    "description": "Bahrain has a connected gaming community with strong mobile and console gaming. FIFA and battle royale games lead the market.",
+    "topGames": [14, 5, 3, 8, 7, 1, 2, 42, 19, 16]
+  },
+  "oman": {
+    "name": "Oman",
+    "code": "OM",
+    "flag": "🇴🇲",
+    "totalGames": 800,
+    "totalPlayers": "2M+",
+    "description": "Oman has a growing gaming market with young demographics driving adoption. FIFA and PUBG Mobile are the most popular titles.",
+    "topGames": [14, 5, 3, 8, 42, 19, 7, 1, 2, 16]
+  },
+  "iraq": {
+    "name": "Iraq",
+    "code": "IQ",
+    "flag": "🇮🇶",
+    "totalGames": 700,
+    "totalPlayers": "15M+",
+    "description": "Iraq has a large young population driving mobile gaming growth. PUBG Mobile is enormously popular among Iraqi gamers.",
+    "topGames": [5, 19, 42, 14, 3, 8, 21, 16, 2, 1]
+  },
+  "iran": {
+    "name": "Iran",
+    "code": "IR",
+    "flag": "🇮🇷",
+    "totalGames": 900,
+    "totalPlayers": "35M+",
+    "description": "Iran has one of the Middle East's largest gaming populations. Despite some restrictions, PC gaming and mobile gaming are hugely popular.",
+    "topGames": [12, 5, 13, 8, 4, 3, 19, 42, 1, 14]
+  },
+  "jordan": {
+    "name": "Jordan",
+    "code": "JO",
+    "flag": "🇯🇴",
+    "totalGames": 800,
+    "totalPlayers": "4M+",
+    "description": "Jordan has a young, tech-savvy gaming community. PUBG Mobile, FIFA, and Fortnite are popular, and the country has a growing esports scene.",
+    "topGames": [5, 14, 3, 19, 8, 42, 7, 1, 2, 4]
+  },
+  "lebanon": {
+    "name": "Lebanon",
+    "code": "LB",
+    "flag": "🇱🇧",
+    "totalGames": 800,
+    "totalPlayers": "3M+",
+    "description": "Lebanon has a passionate gaming community. PC gaming is strong, with CS2, LoL, and Valorant popular alongside mobile titles.",
+    "topGames": [4, 12, 8, 5, 3, 14, 19, 1, 42, 7]
+  },
+  "syria": {
+    "name": "Syria",
+    "code": "SY",
+    "flag": "🇸🇾",
+    "totalGames": 500,
+    "totalPlayers": "5M+",
+    "description": "Syria has a gaming community that persists despite challenges. Mobile gaming is the most accessible platform for Syrian gamers.",
+    "topGames": [5, 19, 42, 14, 3, 21, 8, 16, 2, 1]
+  },
+  "palestine": {
+    "name": "Palestine",
+    "code": "PS",
+    "flag": "🇵🇸",
+    "totalGames": 500,
+    "totalPlayers": "2M+",
+    "description": "Palestine has a young gaming community primarily on mobile platforms. PUBG Mobile and Free Fire are the most popular titles.",
+    "topGames": [5, 19, 42, 14, 3, 8, 21, 2, 1, 16]
+  },
+  "israel": {
+    "name": "Israel",
+    "code": "IL",
+    "flag": "🇮🇱",
+    "totalGames": 1100,
+    "totalPlayers": "5M+",
+    "description": "Israel has a thriving tech and gaming scene. PC gaming is strong, and the country has a vibrant indie game development community.",
+    "topGames": [8, 12, 3, 4, 1, 7, 14, 2, 11, 6]
+  },
+  "yemen": {
+    "name": "Yemen",
+    "code": "YE",
+    "flag": "🇾🇪",
+    "totalGames": 400,
+    "totalPlayers": "5M+",
+    "description": "Yemen has a growing mobile gaming market despite infrastructure limitations. PUBG Mobile and Free Fire are the most accessible games.",
+    "topGames": [5, 19, 42, 21, 14, 3, 16, 2, 39, 1]
+  },
+
+  // ============================================================
+  // ASIA — Other
+  // ============================================================
+
+  "georgia": {
+    "name": "Georgia",
+    "code": "GE",
+    "flag": "🇬🇪",
+    "totalGames": 700,
+    "totalPlayers": "2M+",
+    "description": "Georgia has an active gaming community with CS2 and Dota 2 being the most popular competitive titles.",
+    "topGames": [12, 13, 8, 4, 5, 1, 3, 14, 19, 2]
+  },
+  "armenia": {
+    "name": "Armenia",
+    "code": "AM",
+    "flag": "🇦🇲",
+    "totalGames": 600,
+    "totalPlayers": "1.5M+",
+    "description": "Armenia has a small but dedicated gaming community. CS2 and Dota 2 are popular, and the tech-savvy population drives gaming growth.",
+    "topGames": [12, 13, 8, 4, 5, 1, 3, 14, 19, 2]
+  },
+  "azerbaijan": {
+    "name": "Azerbaijan",
+    "code": "AZ",
+    "flag": "🇦🇿",
+    "totalGames": 700,
+    "totalPlayers": "4M+",
+    "description": "Azerbaijan has a growing gaming market with CS2 and PUBG Mobile leading. The young population is driving rapid gaming adoption.",
+    "topGames": [12, 5, 13, 8, 19, 42, 4, 1, 3, 14]
+  },
+
+  // ============================================================
+  // AFRICA — North Africa
+  // ============================================================
+
+  "egypt": {
+    "name": "Egypt",
+    "code": "EG",
+    "flag": "🇪🇬",
+    "totalGames": 1000,
+    "totalPlayers": "40M+",
+    "description": "Egypt is the Arab world's largest gaming market by player count. PUBG Mobile and Free Fire dominate, with FIFA also hugely popular among Egyptian gamers.",
+    "topGames": [5, 19, 14, 42, 3, 8, 21, 16, 2, 1]
+  },
+  "morocco": {
+    "name": "Morocco",
+    "code": "MA",
+    "flag": "🇲🇦",
+    "totalGames": 800,
+    "totalPlayers": "15M+",
+    "description": "Morocco has North Africa's most active gaming scene. FIFA and Free Fire are massively popular, and the country has a growing esports community.",
+    "topGames": [14, 19, 3, 5, 42, 8, 4, 21, 2, 1]
+  },
+  "tunisia": {
+    "name": "Tunisia",
+    "code": "TN",
+    "flag": "🇹🇳",
+    "totalGames": 700,
+    "totalPlayers": "5M+",
+    "description": "Tunisia has an active gaming community with FIFA, Free Fire, and League of Legends popular among Tunisian gamers.",
+    "topGames": [14, 19, 4, 3, 5, 42, 8, 12, 21, 2]
+  },
+  "algeria": {
+    "name": "Algeria",
+    "code": "DZ",
+    "flag": "🇩🇿",
+    "totalGames": 700,
+    "totalPlayers": "15M+",
+    "description": "Algeria has a large young gaming population. FIFA and Free Fire lead the market, with mobile gaming dominating.",
+    "topGames": [14, 19, 5, 3, 42, 8, 21, 4, 2, 1]
+  },
+  "libya": {
+    "name": "Libya",
+    "code": "LY",
+    "flag": "🇱🇾",
+    "totalGames": 500,
+    "totalPlayers": "3M+",
+    "description": "Libya has a mobile-first gaming market. PUBG Mobile and FIFA are popular despite connectivity challenges.",
+    "topGames": [5, 14, 19, 42, 3, 8, 21, 2, 1, 16]
+  },
+  "sudan": {
+    "name": "Sudan",
+    "code": "SD",
+    "flag": "🇸🇩",
+    "totalGames": 500,
+    "totalPlayers": "8M+",
+    "description": "Sudan has a growing mobile gaming market driven by young demographics. PUBG Mobile and Free Fire are the most popular games.",
+    "topGames": [5, 19, 42, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "mauritania": {
+    "name": "Mauritania",
+    "code": "MR",
+    "flag": "🇲🇷",
+    "totalGames": 400,
+    "totalPlayers": "1M+",
+    "description": "Mauritania has a small mobile gaming market with Free Fire and PUBG Mobile being the most played titles.",
+    "topGames": [19, 5, 42, 14, 21, 3, 16, 2, 39, 1]
+  },
+
+  // ============================================================
+  // AFRICA — West Africa
+  // ============================================================
+
+  "nigeria": {
+    "name": "Nigeria",
+    "code": "NG",
+    "flag": "🇳🇬",
+    "totalGames": 900,
+    "totalPlayers": "60M+",
+    "description": "Nigeria is Africa's largest gaming market. Mobile gaming dominates, with Free Fire, PUBG Mobile, and casual titles being enormously popular among the young population.",
+    "topGames": [19, 5, 42, 21, 3, 2, 14, 16, 39, 1]
+  },
+  "ghana": {
+    "name": "Ghana",
+    "code": "GH",
+    "flag": "🇬🇭",
+    "totalGames": 700,
+    "totalPlayers": "10M+",
+    "description": "Ghana has a growing gaming scene driven by mobile gaming. Free Fire and FIFA are popular among Ghanaian youth.",
+    "topGames": [19, 14, 5, 42, 21, 3, 2, 16, 39, 1]
+  },
+  "senegal": {
+    "name": "Senegal",
+    "code": "SN",
+    "flag": "🇸🇳",
+    "totalGames": 600,
+    "totalPlayers": "5M+",
+    "description": "Senegal has a growing mobile gaming market with FIFA and Free Fire leading. Football culture strongly influences gaming preferences.",
+    "topGames": [14, 19, 5, 42, 21, 3, 2, 16, 39, 1]
+  },
+  "ivory-coast": {
+    "name": "Ivory Coast",
+    "code": "CI",
+    "flag": "🇨🇮",
+    "totalGames": 600,
+    "totalPlayers": "7M+",
+    "description": "Ivory Coast has a mobile-first gaming market with Free Fire and FIFA being the most popular titles.",
+    "topGames": [19, 14, 5, 42, 21, 3, 2, 16, 39, 1]
+  },
+  "cameroon": {
+    "name": "Cameroon",
+    "code": "CM",
+    "flag": "🇨🇲",
+    "totalGames": 600,
+    "totalPlayers": "7M+",
+    "description": "Cameroon has a growing mobile gaming community. Free Fire and FIFA are popular among the country's young population.",
+    "topGames": [19, 14, 5, 42, 21, 3, 2, 16, 39, 1]
+  },
+  "mali": {
+    "name": "Mali",
+    "code": "ML",
+    "flag": "🇲🇱",
+    "totalGames": 500,
+    "totalPlayers": "3M+",
+    "description": "Mali has a small mobile gaming market. Free Fire and casual games are the most accessible titles.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "burkina-faso": {
+    "name": "Burkina Faso",
+    "code": "BF",
+    "flag": "🇧🇫",
+    "totalGames": 500,
+    "totalPlayers": "3M+",
+    "description": "Burkina Faso has a nascent gaming market driven by affordable smartphones and mobile gaming.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "guinea": {
+    "name": "Guinea",
+    "code": "GN",
+    "flag": "🇬🇳",
+    "totalGames": 400,
+    "totalPlayers": "3M+",
+    "description": "Guinea has a small mobile gaming market with Free Fire and casual titles being the most popular.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "niger": {
+    "name": "Niger",
+    "code": "NE",
+    "flag": "🇳🇪",
+    "totalGames": 400,
+    "totalPlayers": "2M+",
+    "description": "Niger has a small mobile gaming market growing as smartphone adoption increases.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "togo": {
+    "name": "Togo",
+    "code": "TG",
+    "flag": "🇹🇬",
+    "totalGames": 400,
+    "totalPlayers": "2M+",
+    "description": "Togo has a small gaming market dominated by mobile titles. Free Fire and casual games lead.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "benin": {
+    "name": "Benin",
+    "code": "BJ",
+    "flag": "🇧🇯",
+    "totalGames": 400,
+    "totalPlayers": "3M+",
+    "description": "Benin has a growing mobile gaming market with Free Fire and casual titles being the most accessible.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "sierra-leone": {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "flag": "🇸🇱",
+    "totalGames": 400,
+    "totalPlayers": "1.5M+",
+    "description": "Sierra Leone has a small mobile gaming market growing with increased smartphone adoption.",
+    "topGames": [19, 42, 5, 21, 3, 2, 14, 16, 39, 1]
+  },
+  "liberia": {
+    "name": "Liberia",
+    "code": "LR",
+    "flag": "🇱🇷",
+    "totalGames": 400,
+    "totalPlayers": "1M+",
+    "description": "Liberia has a small mobile-first gaming market with Free Fire and casual games being most popular.",
+    "topGames": [19, 42, 5, 21, 3, 2, 14, 16, 39, 1]
+  },
+  "gambia": {
+    "name": "Gambia",
+    "code": "GM",
+    "flag": "🇬🇲",
+    "totalGames": 400,
+    "totalPlayers": "500K+",
+    "description": "Gambia has a small gaming market primarily driven by mobile gaming among youth.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "guinea-bissau": {
+    "name": "Guinea-Bissau",
+    "code": "GW",
+    "flag": "🇬🇼",
+    "totalGames": 300,
+    "totalPlayers": "300K+",
+    "description": "Guinea-Bissau has a nascent gaming market with mobile gaming being the only significant platform.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "cabo-verde": {
+    "name": "Cabo Verde",
+    "code": "CV",
+    "flag": "🇨🇻",
+    "totalGames": 400,
+    "totalPlayers": "250K+",
+    "description": "Cabo Verde has a small island gaming market with mobile gaming and FIFA being popular.",
+    "topGames": [14, 19, 42, 3, 5, 21, 2, 1, 7, 8]
+  },
+
+  // ============================================================
+  // AFRICA — East Africa
+  // ============================================================
+
+  "kenya": {
+    "name": "Kenya",
+    "code": "KE",
+    "flag": "🇰🇪",
+    "totalGames": 800,
+    "totalPlayers": "18M+",
+    "description": "Kenya is East Africa's largest gaming market. Mobile gaming dominates, with PUBG Mobile and Free Fire being the most popular competitive titles.",
+    "topGames": [5, 19, 42, 21, 3, 14, 2, 16, 39, 1]
+  },
+  "ethiopia": {
+    "name": "Ethiopia",
+    "code": "ET",
+    "flag": "🇪🇹",
+    "totalGames": 600,
+    "totalPlayers": "15M+",
+    "description": "Ethiopia has a rapidly growing mobile gaming market. With improving internet infrastructure, games like Free Fire and PUBG Mobile are gaining popularity.",
+    "topGames": [19, 5, 42, 21, 3, 14, 2, 16, 39, 1]
+  },
+  "tanzania": {
+    "name": "Tanzania",
+    "code": "TZ",
+    "flag": "🇹🇿",
+    "totalGames": 600,
+    "totalPlayers": "12M+",
+    "description": "Tanzania has a growing mobile gaming scene. Free Fire and PUBG Mobile lead the market among young Tanzanian gamers.",
+    "topGames": [19, 5, 42, 21, 3, 14, 2, 16, 39, 1]
+  },
+  "uganda": {
+    "name": "Uganda",
+    "code": "UG",
+    "flag": "🇺🇬",
+    "totalGames": 600,
+    "totalPlayers": "10M+",
+    "description": "Uganda has a growing mobile gaming market driven by affordable data plans and smartphones. Free Fire and PUBG Mobile are popular.",
+    "topGames": [19, 5, 42, 21, 3, 14, 2, 16, 39, 1]
+  },
+  "rwanda": {
+    "name": "Rwanda",
+    "code": "RW",
+    "flag": "🇷🇼",
+    "totalGames": 500,
+    "totalPlayers": "3M+",
+    "description": "Rwanda has a small but growing gaming market with strong government support for tech adoption driving mobile gaming growth.",
+    "topGames": [19, 5, 42, 21, 3, 14, 2, 16, 39, 1]
+  },
+  "burundi": {
+    "name": "Burundi",
+    "code": "BI",
+    "flag": "🇧🇮",
+    "totalGames": 400,
+    "totalPlayers": "1.5M+",
+    "description": "Burundi has a small mobile gaming market growing slowly as smartphone access improves.",
+    "topGames": [19, 42, 5, 21, 3, 14, 16, 2, 39, 1]
+  },
+  "somalia": {
+    "name": "Somalia",
+    "code": "SO",
+    "flag": "🇸🇴",
+    "totalGames": 400,
+    "totalPlayers": "4M+",
+    "description": "Somalia has a growing mobile gaming market despite infrastructure challenges. PUBG Mobile and Free Fire are the most popular titles.",
+    "topGames": [5, 19, 42, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "south-sudan": {
+    "name": "South Sudan",
+    "code": "SS",
+    "flag": "🇸🇸",
+    "totalGames": 300,
+    "totalPlayers": "1M+",
+    "description": "South Sudan has a nascent gaming market with mobile gaming as the primary platform.",
+    "topGames": [19, 42, 5, 21, 3, 14, 16, 2, 39, 1]
+  },
+  "eritrea": {
+    "name": "Eritrea",
+    "code": "ER",
+    "flag": "🇪🇷",
+    "totalGames": 300,
+    "totalPlayers": "500K+",
+    "description": "Eritrea has a very small gaming market limited by internet access, with mobile gaming being the only significant platform.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "djibouti": {
+    "name": "Djibouti",
+    "code": "DJ",
+    "flag": "🇩🇯",
+    "totalGames": 300,
+    "totalPlayers": "300K+",
+    "description": "Djibouti has a tiny gaming market with mobile gaming growing among its young population.",
+    "topGames": [19, 5, 42, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "madagascar": {
+    "name": "Madagascar",
+    "code": "MG",
+    "flag": "🇲🇬",
+    "totalGames": 500,
+    "totalPlayers": "5M+",
+    "description": "Madagascar has a growing mobile gaming market. Free Fire and casual games are popular among the island nation's young population.",
+    "topGames": [19, 42, 5, 21, 3, 14, 16, 2, 39, 1]
+  },
+  "mauritius": {
+    "name": "Mauritius",
+    "code": "MU",
+    "flag": "🇲🇺",
+    "totalGames": 500,
+    "totalPlayers": "600K+",
+    "description": "Mauritius has a small but connected gaming market with both mobile and console gaming popular.",
+    "topGames": [3, 14, 19, 5, 42, 2, 1, 7, 8, 21]
+  },
+  "seychelles": {
+    "name": "Seychelles",
+    "code": "SC",
+    "flag": "🇸🇨",
+    "totalGames": 400,
+    "totalPlayers": "50K+",
+    "description": "Seychelles has a tiny gaming market with mobile and console gaming among its small population.",
+    "topGames": [3, 14, 19, 5, 2, 1, 42, 7, 8, 21]
+  },
+  "comoros": {
+    "name": "Comoros",
+    "code": "KM",
+    "flag": "🇰🇲",
+    "totalGames": 300,
+    "totalPlayers": "200K+",
+    "description": "Comoros has a very small gaming market with mobile gaming being the primary platform.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+
+  // ============================================================
+  // AFRICA — Southern Africa
+  // ============================================================
+
+  "south-africa": {
+    "name": "South Africa",
+    "code": "ZA",
+    "flag": "🇿🇦",
+    "totalGames": 1000,
+    "totalPlayers": "24M+",
+    "description": "South Africa is Africa's most developed gaming market with strong PC, console, and mobile segments. Fortnite, FIFA, and Apex Legends are popular among South African gamers.",
+    "topGames": [3, 14, 7, 5, 19, 8, 1, 2, 42, 10]
+  },
+  "botswana": {
+    "name": "Botswana",
+    "code": "BW",
+    "flag": "🇧🇼",
+    "totalGames": 500,
+    "totalPlayers": "1M+",
+    "description": "Botswana has a small gaming market with mobile gaming dominant. FIFA and Free Fire are popular.",
+    "topGames": [14, 19, 5, 42, 3, 21, 2, 1, 7, 8]
+  },
+  "namibia": {
+    "name": "Namibia",
+    "code": "NA",
+    "flag": "🇳🇦",
+    "totalGames": 500,
+    "totalPlayers": "800K+",
+    "description": "Namibia has a small gaming community with mobile gaming leading. South African gaming culture influences local preferences.",
+    "topGames": [14, 3, 19, 5, 42, 2, 1, 7, 8, 21]
+  },
+  "mozambique": {
+    "name": "Mozambique",
+    "code": "MZ",
+    "flag": "🇲🇿",
+    "totalGames": 500,
+    "totalPlayers": "5M+",
+    "description": "Mozambique has a growing mobile gaming market driven by young demographics and improving connectivity.",
+    "topGames": [19, 5, 42, 21, 14, 3, 2, 16, 39, 1]
+  },
+  "zambia": {
+    "name": "Zambia",
+    "code": "ZM",
+    "flag": "🇿🇲",
+    "totalGames": 500,
+    "totalPlayers": "4M+",
+    "description": "Zambia has a growing mobile gaming scene with Free Fire and PUBG Mobile popular among young gamers.",
+    "topGames": [19, 5, 42, 21, 14, 3, 2, 16, 39, 1]
+  },
+  "zimbabwe": {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "flag": "🇿🇼",
+    "totalGames": 500,
+    "totalPlayers": "4M+",
+    "description": "Zimbabwe has a growing gaming market with mobile gaming dominant. Free Fire and FIFA are popular titles.",
+    "topGames": [19, 14, 5, 42, 21, 3, 2, 16, 39, 1]
+  },
+  "malawi": {
+    "name": "Malawi",
+    "code": "MW",
+    "flag": "🇲🇼",
+    "totalGames": 400,
+    "totalPlayers": "2M+",
+    "description": "Malawi has a small mobile gaming market growing as smartphone access improves.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "angola": {
+    "name": "Angola",
+    "code": "AO",
+    "flag": "🇦🇴",
+    "totalGames": 600,
+    "totalPlayers": "7M+",
+    "description": "Angola has a growing mobile gaming market with Free Fire and FIFA being the most popular titles among its young population.",
+    "topGames": [19, 14, 5, 42, 21, 3, 2, 16, 39, 1]
+  },
+  "democratic-republic-of-congo": {
+    "name": "Democratic Republic of the Congo",
+    "code": "CD",
+    "flag": "🇨🇩",
+    "totalGames": 500,
+    "totalPlayers": "10M+",
+    "description": "The DRC has a large young population driving mobile gaming growth. Free Fire and casual games are the most accessible titles.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "republic-of-congo": {
+    "name": "Republic of the Congo",
+    "code": "CG",
+    "flag": "🇨🇬",
+    "totalGames": 400,
+    "totalPlayers": "1.5M+",
+    "description": "The Republic of Congo has a small mobile gaming market growing with improved connectivity.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "gabon": {
+    "name": "Gabon",
+    "code": "GA",
+    "flag": "🇬🇦",
+    "totalGames": 400,
+    "totalPlayers": "800K+",
+    "description": "Gabon has a small gaming market with mobile gaming being the primary platform.",
+    "topGames": [19, 14, 42, 5, 21, 3, 2, 16, 39, 1]
+  },
+  "equatorial-guinea": {
+    "name": "Equatorial Guinea",
+    "code": "GQ",
+    "flag": "🇬🇶",
+    "totalGames": 300,
+    "totalPlayers": "300K+",
+    "description": "Equatorial Guinea has a tiny gaming market with mobile gaming being the only significant platform.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "central-african-republic": {
+    "name": "Central African Republic",
+    "code": "CF",
+    "flag": "🇨🇫",
+    "totalGames": 300,
+    "totalPlayers": "500K+",
+    "description": "The Central African Republic has a very small gaming market limited by infrastructure and connectivity.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "chad": {
+    "name": "Chad",
+    "code": "TD",
+    "flag": "🇹🇩",
+    "totalGames": 300,
+    "totalPlayers": "2M+",
+    "description": "Chad has a nascent gaming market with mobile gaming slowly growing as connectivity improves.",
+    "topGames": [19, 42, 5, 21, 14, 3, 16, 2, 39, 1]
+  },
+  "sao-tome-and-principe": {
+    "name": "Sao Tome and Principe",
+    "code": "ST",
+    "flag": "🇸🇹",
+    "totalGames": 300,
+    "totalPlayers": "50K+",
+    "description": "Sao Tome and Principe has a tiny gaming market with mobile gaming being the main platform.",
+    "topGames": [19, 42, 14, 5, 21, 3, 2, 1, 16, 39]
+  },
+  "eswatini": {
+    "name": "Eswatini",
+    "code": "SZ",
+    "flag": "🇸🇿",
+    "totalGames": 400,
+    "totalPlayers": "400K+",
+    "description": "Eswatini has a small gaming market influenced by South African gaming culture, with mobile gaming dominant.",
+    "topGames": [19, 14, 5, 42, 3, 21, 2, 1, 7, 8]
+  },
+  "lesotho": {
+    "name": "Lesotho",
+    "code": "LS",
+    "flag": "🇱🇸",
+    "totalGames": 400,
+    "totalPlayers": "500K+",
+    "description": "Lesotho has a small gaming market with mobile gaming being the primary platform, influenced by South African trends.",
+    "topGames": [19, 14, 5, 42, 3, 21, 2, 1, 7, 8]
+  },
+
+  // ============================================================
+  // OCEANIA
+  // ============================================================
+
+  "australia": {
+    "name": "Australia",
+    "code": "AU",
+    "flag": "🇦🇺",
+    "totalGames": 1800,
+    "totalPlayers": "17M+",
+    "description": "Australia has a mature gaming market with strong console and PC segments. Australian gamers enjoy a mix similar to the US and UK, with Fortnite, FIFA, and Minecraft being top titles.",
+    "topGames": [3, 1, 7, 14, 2, 8, 10, 11, 12, 4]
+  },
+  "new-zealand": {
+    "name": "New Zealand",
+    "code": "NZ",
+    "flag": "🇳🇿",
+    "totalGames": 1400,
+    "totalPlayers": "3M+",
+    "description": "New Zealand has a passionate gaming community similar to Australia. PC and console gaming are strong, and the country punches above its weight in game development.",
+    "topGames": [3, 1, 7, 14, 2, 8, 10, 11, 12, 4]
+  },
+  "papua-new-guinea": {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "flag": "🇵🇬",
+    "totalGames": 400,
+    "totalPlayers": "2M+",
+    "description": "Papua New Guinea has a small mobile-first gaming market growing with improved connectivity.",
+    "topGames": [19, 5, 42, 3, 21, 2, 14, 1, 16, 39]
+  },
+  "fiji": {
+    "name": "Fiji",
+    "code": "FJ",
+    "flag": "🇫🇯",
+    "totalGames": 400,
+    "totalPlayers": "400K+",
+    "description": "Fiji has a small gaming market with mobile gaming dominant among its island population.",
+    "topGames": [3, 19, 42, 5, 2, 14, 1, 21, 7, 8]
+  },
+  "samoa": {
+    "name": "Samoa",
+    "code": "WS",
+    "flag": "🇼🇸",
+    "totalGames": 300,
+    "totalPlayers": "80K+",
+    "description": "Samoa has a tiny gaming market with mobile gaming being the primary platform.",
+    "topGames": [3, 19, 42, 2, 5, 14, 1, 21, 7, 8]
+  },
+  "tonga": {
+    "name": "Tonga",
+    "code": "TO",
+    "flag": "🇹🇴",
+    "totalGames": 300,
+    "totalPlayers": "40K+",
+    "description": "Tonga has a very small gaming market with mobile gaming growing slowly.",
+    "topGames": [3, 19, 42, 2, 5, 14, 1, 21, 7, 8]
+  },
+  "vanuatu": {
+    "name": "Vanuatu",
+    "code": "VU",
+    "flag": "🇻🇺",
+    "totalGames": 300,
+    "totalPlayers": "80K+",
+    "description": "Vanuatu has a tiny gaming market limited to mobile gaming.",
+    "topGames": [19, 42, 3, 5, 2, 21, 14, 1, 16, 39]
+  },
+  "solomon-islands": {
+    "name": "Solomon Islands",
+    "code": "SB",
+    "flag": "🇸🇧",
+    "totalGames": 300,
+    "totalPlayers": "100K+",
+    "description": "Solomon Islands has a very small gaming market with mobile gaming as the primary platform.",
+    "topGames": [19, 42, 3, 5, 2, 21, 14, 1, 16, 39]
+  },
+  "kiribati": {
+    "name": "Kiribati",
+    "code": "KI",
+    "flag": "🇰🇮",
+    "totalGames": 200,
+    "totalPlayers": "30K+",
+    "description": "Kiribati has a tiny gaming market limited by connectivity, with basic mobile games being most common.",
+    "topGames": [19, 42, 21, 3, 2, 5, 14, 1, 16, 39]
+  },
+  "marshall-islands": {
+    "name": "Marshall Islands",
+    "code": "MH",
+    "flag": "🇲🇭",
+    "totalGames": 200,
+    "totalPlayers": "15K+",
+    "description": "The Marshall Islands has a very small gaming market with mobile gaming only.",
+    "topGames": [19, 42, 3, 2, 5, 21, 14, 1, 7, 8]
+  },
+  "micronesia": {
+    "name": "Micronesia",
+    "code": "FM",
+    "flag": "🇫🇲",
+    "totalGames": 200,
+    "totalPlayers": "30K+",
+    "description": "Micronesia has a tiny gaming market with mobile gaming being the only significant platform.",
+    "topGames": [19, 42, 3, 2, 5, 21, 14, 1, 7, 8]
+  },
+  "palau": {
+    "name": "Palau",
+    "code": "PW",
+    "flag": "🇵🇼",
+    "totalGames": 200,
+    "totalPlayers": "8K+",
+    "description": "Palau has a tiny gaming market influenced by both US and Pacific island trends.",
+    "topGames": [3, 2, 1, 19, 42, 7, 14, 5, 8, 21]
+  },
+  "nauru": {
+    "name": "Nauru",
+    "code": "NR",
+    "flag": "🇳🇷",
+    "totalGames": 200,
+    "totalPlayers": "5K+",
+    "description": "Nauru has the world's smallest gaming market with limited mobile gaming.",
+    "topGames": [19, 42, 3, 2, 5, 21, 14, 1, 7, 8]
+  },
+  "tuvalu": {
+    "name": "Tuvalu",
+    "code": "TV",
+    "flag": "🇹🇻",
+    "totalGames": 200,
+    "totalPlayers": "4K+",
+    "description": "Tuvalu has one of the world's smallest gaming markets with very limited connectivity.",
+    "topGames": [19, 42, 3, 2, 5, 21, 14, 1, 7, 8]
   }
 };
 

@@ -1,8 +1,9 @@
 import RankingsClient from './RankingsClient';
 
 export const metadata = {
-  title: 'Global Rankings — Top 200 Games | 50 Best Games',
-  description: 'The complete ranking of the 200 most popular online games worldwide. Filter by category, sort by rank, rating, or downloads.',
+  title: 'Global Game Rankings 2026 — Top 200 Games',
+  description: 'The complete global ranking of the 200 most popular online games in 2026. Filter by category, sort by rating or downloads.',
+  alternates: { canonical: 'https://50bestgames.com/rankings' },
 };
 
 export default function RankingsPage() {

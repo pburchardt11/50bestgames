@@ -2,8 +2,9 @@ import Link from 'next/link';
 import { BLOG_POSTS } from '@/data/blog-data';
 
 export const metadata = {
-  title: 'Blog — Gaming News, Guides & Analysis | 50 Best Games',
-  description: 'Expert gaming analysis, guides, industry insights, and editorial content from the 50 Best Games team.',
+  title: 'Gaming Blog — News, Guides & Analysis',
+  description: 'Expert gaming analysis, industry insights, game guides, and editorial content from the 50 Best Games team.',
+  alternates: { canonical: 'https://50bestgames.com/blog' },
 };
 
 export default function BlogPage() {

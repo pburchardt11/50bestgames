@@ -1,6 +1,7 @@
 export const metadata = {
-  title: 'Privacy Policy — 50 Best Games',
-  description: 'Privacy policy for 50bestgames.com',
+  title: 'Privacy Policy',
+  description: 'Privacy policy for 50bestgames.com.',
+  alternates: { canonical: 'https://50bestgames.com/privacy' },
 };
 
 export default function PrivacyPage() {

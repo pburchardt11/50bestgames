@@ -22,13 +22,18 @@ export default function Footer() {
             <h4>Popular Countries</h4>
             <ul>
               <li><Link href="/country/united-states">United States</Link></li>
+              <li><Link href="/country/china">China</Link></li>
+              <li><Link href="/country/india">India</Link></li>
               <li><Link href="/country/brazil">Brazil</Link></li>
               <li><Link href="/country/japan">Japan</Link></li>
               <li><Link href="/country/south-korea">South Korea</Link></li>
-              <li><Link href="/country/china">China</Link></li>
-              <li><Link href="/country/india">India</Link></li>
               <li><Link href="/country/germany">Germany</Link></li>
               <li><Link href="/country/united-kingdom">United Kingdom</Link></li>
+              <li><Link href="/country/france">France</Link></li>
+              <li><Link href="/country/indonesia">Indonesia</Link></li>
+              <li><Link href="/country/russia">Russia</Link></li>
+              <li><Link href="/country/saudi-arabia">Saudi Arabia</Link></li>
+              <li><Link href="/countries" style={{ fontWeight: 600 }}>All 195+ Countries &rarr;</Link></li>
             </ul>
           </div>
           <div className="footer-col">

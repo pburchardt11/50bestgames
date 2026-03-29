@@ -1,6 +1,7 @@
 export const metadata = {
-  title: 'Terms of Service — 50 Best Games',
-  description: 'Terms of service for 50bestgames.com',
+  title: 'Terms of Service',
+  description: 'Terms of service for 50bestgames.com.',
+  alternates: { canonical: 'https://50bestgames.com/terms' },
 };
 
 export default function TermsPage() {

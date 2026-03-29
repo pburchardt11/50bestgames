@@ -1,8 +1,9 @@
 import ContactForm from './ContactForm';
 
 export const metadata = {
-  title: 'Contact Us — 50 Best Games',
-  description: 'Get in touch with the 50 Best Games team. Feedback, partnerships, and press inquiries welcome.',
+  title: 'Contact Us',
+  description: 'Get in touch with the 50 Best Games team for feedback, partnerships, or press inquiries.',
+  alternates: { canonical: 'https://50bestgames.com/contact' },
 };
 
 export default function ContactPage() {

@@ -2765,3 +2765,67 @@ h6 { font-size: var(--fs-base); }
 .ad-container ins {
   display: block;
 }
+
+/* ============================================================
+   YouTubers Section
+   ============================================================ */
+.modal-youtubers {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.modal-youtubers h4 {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.youtuber-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.youtuber-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.youtuber-item:hover {
+  border-color: #ff0000;
+  background: var(--bg-card-hover);
+}
+
+.youtuber-icon {
+  width: 32px;
+  height: 32px;
+  background: #ff0000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.youtuber-name {
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  flex: 1;
+}
+
+.youtuber-subs {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}

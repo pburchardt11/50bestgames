@@ -1,8 +1,9 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About — 50 Best Games',
-  description: 'Learn about 50 Best Games, our editorial process, and how we rank the world\'s most popular online games.',
+  title: 'About',
+  description: 'Learn about 50 Best Games, our editorial process, and how we rank the most popular online games worldwide.',
+  alternates: { canonical: 'https://50bestgames.com/about' },
 };
 
 export default function AboutPage() {

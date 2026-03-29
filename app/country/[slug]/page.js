@@ -8,10 +8,15 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const country = COUNTRY_DATA[slug];
-  if (!country) return { title: 'Country Not Found | 50 Best Games' };
+  if (!country) return { title: 'Country Not Found' };
   return {
-    title: `Top Games in ${country.name} — 50 Best Games`,
-    description: `Discover the most popular games in ${country.name}. ${country.description}`,
+    title: `Best Games in ${country.name} (2026) — Top Rankings`,
+    description: `Discover the most popular and downloaded online games in ${country.name}. ${country.totalPlayers} gamers, top ${country.topGames.length} games ranked.`,
+    alternates: { canonical: `https://50bestgames.com/country/${slug}` },
+    openGraph: {
+      title: `Best Games in ${country.name} — 50 Best Games`,
+      description: `Top ranked online games in ${country.name} with ${country.totalPlayers} players.`,
+    },
   };
 }
 

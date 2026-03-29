@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useCallback } from 'react';
+import { GAME_YOUTUBERS } from '../data/youtubers-data';
 
 export default function GameModal({ game, onClose }) {
   const handleKeyDown = useCallback((e) => {
@@ -127,6 +128,28 @@ export default function GameModal({ game, onClose }) {
               <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
                 {game.topCountries.map((code) => (
                   <span key={code} className="country-code">{code}</span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Top YouTubers */}
+          {GAME_YOUTUBERS[game.id] && GAME_YOUTUBERS[game.id].length > 0 && (
+            <div className="modal-youtubers">
+              <h4>Top YouTubers</h4>
+              <div className="youtuber-list">
+                {GAME_YOUTUBERS[game.id].map((youtuber) => (
+                  <a
+                    key={youtuber.name}
+                    href={youtuber.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="youtuber-item"
+                  >
+                    <span className="youtuber-icon">&#9654;</span>
+                    <span className="youtuber-name">{youtuber.name}</span>
+                    <span className="youtuber-subs">{youtuber.subscribers} subscribers</span>
+                  </a>
                 ))}
               </div>
             </div>
