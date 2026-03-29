@@ -2829,3 +2829,25 @@ h6 { font-size: var(--fs-base); }
   font-size: var(--fs-xs);
   color: var(--text-muted);
 }
+
+/* Search Dropdown Section Labels */
+.search-dropdown-section-label {
+  padding: 0.5rem 1rem 0.25rem;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-color);
+}
+
+.search-dropdown-section-label:first-child {
+  border-top: none;
+}
+
+.search-dropdown-flag {
+  font-size: 1.5rem;
+  width: 36px;
+  text-align: center;
+  flex-shrink: 0;
+}
