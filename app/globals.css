@@ -1158,43 +1158,47 @@ h6 { font-size: var(--fs-base); }
 
 .countries-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 0.4rem;
 }
 
 .country-card {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-4);
-  background: var(--bg-primary);
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  text-align: center;
-  transition: all var(--transition-base);
+  border-radius: 0.4rem;
   text-decoration: none;
+  transition: all var(--transition-base);
 }
 
 .country-card:hover {
   border-color: var(--accent-primary);
-  box-shadow: var(--glow-purple);
-  transform: translateY(-2px);
+  background: var(--bg-card-hover);
 }
 
 .country-flag {
-  font-size: 2rem;
+  font-size: 1.1rem;
+  flex-shrink: 0;
 }
 
 .country-name {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   font-weight: 600;
   color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .country-games-count {
-  font-size: var(--fs-xs);
+  font-size: 0.65rem;
   color: var(--text-muted);
+  margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* ============================================================
