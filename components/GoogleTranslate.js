@@ -63,12 +63,17 @@ export default function GoogleTranslate() {
       setTimeout(() => clearInterval(interval), 10000);
     }
 
-    // Hide Google Translate top bar
+    // Hide Google Translate top bar and hover tooltip
     const style = document.createElement('style');
     style.textContent = `
       .goog-te-banner-frame { display: none !important; }
       body { top: 0 !important; }
       .skiptranslate iframe { display: none !important; }
+      .goog-te-balloon-frame { display: none !important; }
+      .goog-te-menu-frame { display: none !important; }
+      .goog-tooltip { display: none !important; }
+      .goog-tooltip:hover { display: none !important; }
+      .goog-text-highlight { background: none !important; box-shadow: none !important; }
     `;
     document.head.appendChild(style);
   }, []);

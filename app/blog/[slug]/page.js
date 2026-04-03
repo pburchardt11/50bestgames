@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BLOG_POSTS } from '@/data/blog-data';
+import BlogHeroImage from '@/components/BlogHeroImage';
 
 export async function generateStaticParams() {
   return BLOG_POSTS.map((post) => ({ slug: post.slug }));
@@ -64,11 +65,7 @@ export default async function BlogPostPage({ params }) {
             </header>
 
             <div className="blog-hero-image-container" style={{ background: post.gradient }}>
-              <img
-                className="blog-hero-image"
-                src={`/images/blog/${post.slug}/hero.jpg`}
-                alt={post.title}
-              />
+              <BlogHeroImage slug={post.slug} title={post.title} />
             </div>
 
             <div
