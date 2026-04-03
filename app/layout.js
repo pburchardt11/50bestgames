@@ -49,7 +49,7 @@ export const metadata = {
     canonical: 'https://50bestgames.com',
   },
   verification: {
-    google: '', // Can add Search Console verification later
+    google: '',
   },
 };
 
@@ -70,7 +70,12 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-XX30110B5W');
           `}
         </Script>
-        {/* AdSense removed temporarily */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2057309335537732"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={inter.className}>
         <WebsiteJsonLd />
@@ -82,4 +87,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-

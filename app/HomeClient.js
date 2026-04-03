@@ -2,10 +2,10 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { GAMES_DATA, COUNTRY_DATA } from '@/data/games-data';
-import GameCard from '@/components/GameCard';
+import GameCard, { GameCardSkeleton } from '@/components/GameCard';
 import GameModal from '@/components/GameModal';
 import Sidebar from '@/components/Sidebar';
-// import AdUnit from '@/components/AdUnit';
+import AdUnit from '@/components/AdUnit';
 
 const FILTER_OPTIONS = ['All', 'Battle Royale', 'MOBA', 'Sandbox', 'FPS', 'Mobile', 'RPG', 'Puzzle'];
 const SORT_OPTIONS = ['rank', 'name', 'rating', 'downloads'];
@@ -25,6 +25,7 @@ export default function HomeClient() {
   const [sort, setSort] = useState('rank');
   const [selectedGame, setSelectedGame] = useState(null);
   const [showCount, setShowCount] = useState(50);
+  const [isFiltering, setIsFiltering] = useState(false);
 
   const allGames = GAMES_DATA.globalTop50.concat(GAMES_DATA.extendedTop200 || []);
   const gamesById = useMemo(() => {
@@ -64,8 +65,14 @@ export default function HomeClient() {
     const list = Object.entries(COUNTRY_DATA)
       .map(([slug, data]) => ({ value: slug, label: `${data.flag} ${data.name}` }))
       .sort((a, b) => a.label.replace(/[^\w]/g, '').localeCompare(b.label.replace(/[^\w]/g, '')));
-    return [{ value: 'global', label: '🌐 Global Rankings' }, ...list];
+    return [{ value: 'global', label: '\uD83C\uDF10 Global Rankings' }, ...list];
   }, []);
+
+  function handleFilter(f) {
+    setIsFiltering(true);
+    setFilter(f);
+    setTimeout(() => setIsFiltering(false), 300);
+  }
 
   return (
     <>
@@ -115,7 +122,7 @@ export default function HomeClient() {
               <button
                 key={f}
                 className={`filter-btn${filter === f ? ' active' : ''}`}
-                onClick={() => setFilter(f)}
+                onClick={() => handleFilter(f)}
               >
                 {f}
               </button>
@@ -146,7 +153,9 @@ export default function HomeClient() {
         <div className="content-container">
           <div className="games-section">
             <div className="games-grid">
-              {visible.length > 0 ? (
+              {isFiltering ? (
+                Array.from({ length: 8 }).map((_, i) => <GameCardSkeleton key={i} />)
+              ) : visible.length > 0 ? (
                 visible.map((game) => (
                   <GameCard key={game.id} game={game} onSelect={setSelectedGame} />
                 ))
@@ -169,6 +178,39 @@ export default function HomeClient() {
         </div>
       </main>
 
+      {/* Ad between sections */}
+      <div style={{ maxWidth: 'var(--container-max)', margin: '0 auto', padding: '0 var(--space-4)' }}>
+        <AdUnit />
+      </div>
+
+      {/* Top 10 Lists Section */}
+      <section className="countries-section">
+        <div className="countries-container">
+          <div className="section-header">
+            <h2 className="section-title">Top 10 Game Lists</h2>
+            <Link href="/lists" className="view-all-link">View all lists &rarr;</Link>
+          </div>
+          <div className="countries-grid" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))' }}>
+            {[
+              { slug: 'best-free-games', icon: '\uD83C\uDD93', name: 'Best Free Games' },
+              { slug: 'best-battle-royale', icon: '\uD83C\uDFAF', name: 'Best Battle Royale' },
+              { slug: 'best-fps-games', icon: '\uD83D\uDD2B', name: 'Best FPS Games' },
+              { slug: 'best-rpg-games', icon: '\uD83D\uDDE1\uFE0F', name: 'Best RPGs' },
+              { slug: 'best-mobile-games', icon: '\uD83D\uDCF1', name: 'Best Mobile Games' },
+              { slug: 'best-pc-games', icon: '\uD83D\uDCBB', name: 'Best PC Games' },
+              { slug: 'highest-rated-games', icon: '\u2B50', name: 'Highest Rated' },
+              { slug: 'most-downloaded-games', icon: '\uD83D\uDCE5', name: 'Most Downloaded' },
+            ].map((list) => (
+              <Link key={list.slug} href={`/lists/${list.slug}`} className="country-card">
+                <span className="country-flag">{list.icon}</span>
+                <span className="country-name">{list.name}</span>
+                <span className="country-games-count">Top 10</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Countries Section */}
       <section className="countries-section">
         <div className="countries-container">
@@ -188,6 +230,11 @@ export default function HomeClient() {
         </div>
       </section>
 
+      {/* Ad between sections */}
+      <div style={{ maxWidth: 'var(--container-max)', margin: '0 auto', padding: '0 var(--space-4)' }}>
+        <AdUnit />
+      </div>
+
       {/* Blog Preview */}
       <section className="blog-preview-section">
         <div className="blog-preview-container">
@@ -199,7 +246,7 @@ export default function HomeClient() {
             {[
               { slug: 'top-battle-royale-games-2026', cat: 'Rankings', title: 'The 10 Best Battle Royale Games to Play in 2026', desc: 'From Fortnite to newcomers, our definitive ranking of battle royale games this year.', date: 'March 2026', read: '8 min read', grad: 'linear-gradient(135deg, #7c3aed, #ef4444)' },
               { slug: 'mobile-gaming-revolution', cat: 'Industry', title: 'How Mobile Gaming Took Over the World', desc: 'A deep dive into why mobile gaming now generates more revenue than console and PC combined.', date: 'March 2026', read: '10 min read', grad: 'linear-gradient(135deg, #06b6d4, #3b82f6)' },
-              { slug: 'ai-in-gaming-2026', cat: 'Technology', title: 'How AI is Transforming Gaming in 2026', desc: 'From smarter NPCs to procedural worlds, artificial intelligence is reshaping every aspect of gaming.', date: 'March 2026', read: '9 min read', grad: 'linear-gradient(135deg, #10b981, #06b6d4)' },
+              { slug: 'best-rpg-games-2026', cat: 'Rankings', title: 'The 15 Best RPG Games to Play in 2026', desc: 'From epic open-world adventures to tactical turn-based gems, these are the best RPGs.', date: 'Feb 2026', read: '12 min read', grad: 'linear-gradient(135deg, #7c3aed, #10b981)' },
               { slug: 'esports-guide-beginners', cat: 'Guide', title: 'The Complete Beginner\'s Guide to Esports', desc: 'Everything you need to know to start watching and understanding competitive gaming.', date: 'March 2026', read: '12 min read', grad: 'linear-gradient(135deg, #f59e0b, #ef4444)' },
             ].map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">

@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useCallback } from 'react';
+import Link from 'next/link';
 import { GAME_YOUTUBERS } from '../data/youtubers-data';
 
 export default function GameModal({ game, onClose }) {
@@ -155,17 +156,28 @@ export default function GameModal({ game, onClose }) {
             </div>
           )}
 
-          {/* Official Link */}
-          {game.officialUrl && (
-            <a
-              href={game.officialUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+          {/* Links */}
+          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+            <Link
+              href={`/game/${game.slug}`}
               className="modal-link"
+              style={{ flex: 1 }}
+              onClick={onClose}
             >
-              Visit Official Site &rarr;
-            </a>
-          )}
+              Full Game Page &rarr;
+            </Link>
+            {game.officialUrl && (
+              <a
+                href={game.officialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="modal-link"
+                style={{ flex: 1, background: 'var(--bg-elevated)', color: 'var(--text-primary)' }}
+              >
+                Official Site &rarr;
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </div>

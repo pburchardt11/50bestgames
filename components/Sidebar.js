@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CATEGORIES, COUNTRY_DATA } from '@/data/games-data';
+import { CATEGORIES } from '@/data/games-data';
 
 export default function Sidebar() {
   return (
@@ -18,77 +18,71 @@ export default function Sidebar() {
         </div>
       </div>
 
+      {/* Top 10 Lists */}
+      <div className="sidebar-section">
+        <h3 className="sidebar-title">Top 10 Lists</h3>
+        <div className="sidebar-blog-list">
+          <Link href="/lists/best-free-games" className="sidebar-blog-item">
+            <span className="sidebar-blog-category">Free</span>
+            <span className="sidebar-blog-title">Best Free-to-Play Games</span>
+          </Link>
+          <Link href="/lists/best-battle-royale" className="sidebar-blog-item">
+            <span className="sidebar-blog-category">BR</span>
+            <span className="sidebar-blog-title">Best Battle Royale Games</span>
+          </Link>
+          <Link href="/lists/best-mobile-games" className="sidebar-blog-item">
+            <span className="sidebar-blog-category">Mobile</span>
+            <span className="sidebar-blog-title">Best Mobile Games</span>
+          </Link>
+          <Link href="/lists/highest-rated-games" className="sidebar-blog-item">
+            <span className="sidebar-blog-category">Top</span>
+            <span className="sidebar-blog-title">Highest Rated Games</span>
+          </Link>
+          <Link href="/lists" className="sidebar-blog-item">
+            <span className="sidebar-blog-title" style={{ color: 'var(--accent-primary-light)' }}>View All Lists &rarr;</span>
+          </Link>
+        </div>
+      </div>
+
       {/* Trending */}
       <div className="sidebar-section">
         <h3 className="sidebar-title">Trending Now</h3>
         <div className="trending-list">
-          <div className="trending-item">
+          <Link href="/game/minecraft" className="trending-item" style={{ textDecoration: 'none' }}>
             <span className="trending-rank hot">&#128293;</span>
             <div className="trending-info">
-              <span className="trending-name">GTA 6</span>
-              <span className="trending-meta">Most searched game of 2026</span>
+              <span className="trending-name">Minecraft</span>
+              <span className="trending-meta">#1 Global &middot; 170M+ players</span>
             </div>
-          </div>
-          <div className="trending-item">
+          </Link>
+          <Link href="/game/roblox" className="trending-item" style={{ textDecoration: 'none' }}>
             <span className="trending-rank hot">&#128293;</span>
             <div className="trending-info">
-              <span className="trending-name">Hytale</span>
-              <span className="trending-meta">Emerging sandbox title</span>
+              <span className="trending-name">Roblox</span>
+              <span className="trending-meta">#2 Global &middot; 220M+ players</span>
             </div>
-          </div>
-          <div className="trending-item">
+          </Link>
+          <Link href="/game/fortnite" className="trending-item" style={{ textDecoration: 'none' }}>
             <span className="trending-rank rising">&#128200;</span>
             <div className="trending-info">
-              <span className="trending-name">Arc Raiders</span>
-              <span className="trending-meta">New co-op shooter</span>
+              <span className="trending-name">Fortnite</span>
+              <span className="trending-meta">#3 Global &middot; 100M+ players</span>
             </div>
-          </div>
-          <div className="trending-item">
+          </Link>
+          <Link href="/game/league-of-legends" className="trending-item" style={{ textDecoration: 'none' }}>
             <span className="trending-rank rising">&#128200;</span>
             <div className="trending-info">
-              <span className="trending-name">Battlefield 6</span>
-              <span className="trending-meta">Franchise reboot</span>
+              <span className="trending-name">League of Legends</span>
+              <span className="trending-meta">#4 Global &middot; 150M+ players</span>
             </div>
-          </div>
-          <div className="trending-item">
+          </Link>
+          <Link href="/game/valorant" className="trending-item" style={{ textDecoration: 'none' }}>
             <span className="trending-rank rising">&#128200;</span>
             <div className="trending-info">
-              <span className="trending-name">Pokemon Legends Z-A</span>
-              <span className="trending-meta">Nintendo&apos;s next hit</span>
+              <span className="trending-name">Valorant</span>
+              <span className="trending-meta">#8 Global &middot; 28M+ players</span>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Platforms */}
-      <div className="sidebar-section">
-        <h3 className="sidebar-title">Gaming Platforms</h3>
-        <div className="platform-list">
-          <a href="#" className="platform-item">
-            <span className="platform-icon">&#127918;</span>
-            <span>Steam</span>
-            <span className="platform-count">25,000+ games</span>
-          </a>
-          <a href="#" className="platform-item">
-            <span className="platform-icon">&#128241;</span>
-            <span>App Store</span>
-            <span className="platform-count">500,000+ games</span>
-          </a>
-          <a href="#" className="platform-item">
-            <span className="platform-icon">&#128241;</span>
-            <span>Google Play</span>
-            <span className="platform-count">450,000+ games</span>
-          </a>
-          <a href="#" className="platform-item">
-            <span className="platform-icon">&#127918;</span>
-            <span>Epic Games</span>
-            <span className="platform-count">2,500+ games</span>
-          </a>
-          <a href="#" className="platform-item">
-            <span className="platform-icon">&#127918;</span>
-            <span>Xbox Game Pass</span>
-            <span className="platform-count">450+ games</span>
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -100,17 +94,17 @@ export default function Sidebar() {
             <span className="sidebar-blog-category">Rankings</span>
             <span className="sidebar-blog-title">The 10 Best Battle Royale Games to Play in 2026</span>
           </Link>
-          <Link href="/blog/mobile-gaming-revolution" className="sidebar-blog-item">
-            <span className="sidebar-blog-category">Industry</span>
-            <span className="sidebar-blog-title">How Mobile Gaming Took Over the World</span>
+          <Link href="/blog/best-rpg-games-2026" className="sidebar-blog-item">
+            <span className="sidebar-blog-category">Rankings</span>
+            <span className="sidebar-blog-title">The 15 Best RPG Games to Play in 2026</span>
           </Link>
-          <Link href="/blog/ai-in-gaming-2026" className="sidebar-blog-item">
-            <span className="sidebar-blog-category">Technology</span>
-            <span className="sidebar-blog-title">How AI is Transforming Gaming in 2026</span>
-          </Link>
-          <Link href="/blog/best-multiplayer-games-friends" className="sidebar-blog-item">
+          <Link href="/blog/gaming-on-a-budget" className="sidebar-blog-item">
             <span className="sidebar-blog-category">Guide</span>
-            <span className="sidebar-blog-title">25 Best Multiplayer Games to Play with Friends</span>
+            <span className="sidebar-blog-title">How to Game on a Budget</span>
+          </Link>
+          <Link href="/blog/best-cozy-games-2026" className="sidebar-blog-item">
+            <span className="sidebar-blog-category">Rankings</span>
+            <span className="sidebar-blog-title">The 10 Best Cozy Games for Relaxing</span>
           </Link>
         </div>
       </div>

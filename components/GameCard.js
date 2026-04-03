@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 function getStars(rating) {
   const stars = [];
@@ -77,8 +78,28 @@ export default function GameCard({ game, onSelect }) {
           <span className={`price-tag ${game.freeToPlay ? 'free' : 'paid'}`}>
             {game.freeToPlay ? 'Free to Play' : game.price}
           </span>
-          <span className="card-year">{game.releaseYear}</span>
+          <Link
+            href={`/game/${game.slug}`}
+            className="card-details-link"
+            onClick={(e) => e.stopPropagation()}
+          >
+            View Details &rarr;
+          </Link>
         </div>
+      </div>
+    </div>
+  );
+}
+
+export function GameCardSkeleton() {
+  return (
+    <div className="skeleton-card">
+      <div className="skeleton-card-image" />
+      <div className="skeleton-card-body">
+        <div className="skeleton-line skeleton-line-medium" />
+        <div className="skeleton-line skeleton-line-short" />
+        <div className="skeleton-line skeleton-line-full" />
+        <div className="skeleton-line skeleton-line-short" style={{ marginTop: '0.5rem' }} />
       </div>
     </div>
   );
